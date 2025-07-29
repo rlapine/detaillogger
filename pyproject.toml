@@ -4,6 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "detaillogger"
+dynamic = ["version"]
+[tool.setuptools.dynamic]
 version = { attr = "detaillogger.__version__" }
 description = "A lightweight logging utility for detailed trace-level debugging"
 authors = [
