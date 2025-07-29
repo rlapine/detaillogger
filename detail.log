@@ -1,0 +1,12 @@
+2025-07-29 10:29:22,289 - DEBUG - Details:  This is a message to log to file.
+2025-07-29 10:29:22,289 - DEBUG - From:     c:\Users\ryan\Visual Code Projects\git_repositories\detaillogger\detaillogger.py
+2025-07-29 10:29:22,290 - DEBUG - Function: main()
+2025-07-29 10:29:22,290 - DEBUG - Line:     177
+
+2025-07-29 10:30:00,513 - DEBUG - Exception type:    ZeroDivisionError
+2025-07-29 10:30:00,513 - DEBUG - Exception message: division by zero
+2025-07-29 10:30:00,513 - DEBUG - Details:           This is a message about the exception to log to file.
+2025-07-29 10:30:00,514 - DEBUG - File:              c:\Users\ryan\Visual Code Projects\git_repositories\detaillogger\detaillogger.py
+2025-07-29 10:30:00,514 - DEBUG - Function:          main
+2025-07-29 10:30:00,514 - DEBUG - Line:              185
+

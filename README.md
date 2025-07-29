@@ -54,7 +54,7 @@ log("This is a message to log.")
 try:
     x = 1 / 0
 except Exception as e:
-    log_exception(e, details="Divide-by-zero detected")
+    log_exception(e, details="This is a message about the exception to log.")
 ```
 
 **Console Output:**
@@ -63,23 +63,35 @@ except Exception as e:
 2025-07-28 17:02:27,674 - DEBUG - Details:  This is a message to log.
 2025-07-28 17:02:27,674 - DEBUG - From:     c:\Users\ryan\...detaillogger.py
 2025-07-28 17:02:27,675 - DEBUG - Function: main()
-2025-07-28 17:02:27,675 - DEBUG - Line:     178
-```
+2025-07-28 17:02:27,675 - DEBUG - Line:     3
 
-log_exception(ZeroDivisionEX, "Additional info")
-
-**Console Output:**
-
-```
 2025-07-28 17:05:22,185 - DEBUG - Exception type:    ZeroDivisionError
 2025-07-28 17:05:22,186 - DEBUG - Exception message: division by zero
-2025-07-28 17:05:22,186 - DEBUG - Details:           Additional info
+2025-07-28 17:05:22,186 - DEBUG - Details:           This is a message about the exception to log.
 2025-07-28 17:05:22,186 - DEBUG - File:              ...detaillogger.py
-2025-07-28 17:05:22,186 - DEBUG - Function:          main
-2025-07-28 17:05:22,186 - DEBUG - Line:              185
+2025-07-28 17:05:22,186 - DEBUG - Function:          main()
+2025-07-28 17:05:22,186 - DEBUG - Line:              6
 ```
 
-To specify a log file or change logging level, instantiate the `DetailLogger` class with `filename` and `level` parameters:
+### Embedded Example
+
+```python
+# To log to a file and console, instantiate DetailLogger class with filename.
+from detaillogger import log, log_exception
+
+logger = DetailLogger(file_name="detail.log")
+
+log("This is a message to log to file.")
+
+try:
+    x = 1 / 0
+except Exception as e:
+    log_exception(e, details="This is a message about the exception to log to file.")
+```
+
+**File Output:**
+
+![detail.log](image.png)
 
 ---
 
