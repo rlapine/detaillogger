@@ -7,7 +7,7 @@
 [![Tests](https://github.com/rlapine/detaillogger/actions/workflows/python-tests.yml/badge.svg)](https://github.com/rlapine/detaillogger/actions)
 
 **Version:** 1.1  
-**Date:** July 28, 2025
+**Date:** July 29, 2025
 
 DetailLogger is a lightweight Python utility for enhanced logging and exception tracing. It automatically captures contextual information—such as file name, function, and line number—whenever messages or exceptions are logged. Ideal for debugging, monitoring, and building maintainable systems.
 
