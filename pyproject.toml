@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "detaillogger"
+version = { attr = "detaillogger.__version__" }
+description = "A lightweight logging utility for detailed trace-level debugging"
+authors = [
+  { name = "Ryan LaPine", email = "github.stunt845@passinbox.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+dependencies = [
+  "typing-extensions"
+]
+
+[project.urls]
+Homepage = "https://github.com/rlapine/detaillogger"
+Documentation = "https://github.com/rlapine/detaillogger#readme"
+Source = "https://github.com/rlapine/detaillogger"
+Issues = "https://github.com/rlapine/detaillogger/issues"
+
+[project.scripts]
+detaillogger = "detaillogger.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
