@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "detaillogger"
-dynamic = ["version"]
-[tool.setuptools.dynamic]
-version = { attr = "detaillogger.__version__" }
-description = "A lightweight logging utility for detailed trace-level debugging"
+version = "0.1.0"
+dynamic = ["description"]
 authors = [
+  { name = "Ryan LaPine", email = "github.stunt845@passinbox.com" }
+]
+maintainers = [
   { name = "Ryan LaPine", email = "github.stunt845@passinbox.com" }
 ]
 readme = "README.md"
@@ -17,6 +18,15 @@ requires-python = ">=3.8"
 
 dependencies = [
   "typing-extensions"
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
 [project.urls]
@@ -30,3 +40,6 @@ detaillogger = "detaillogger.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.setuptools.dynamic]
+description = { file = ["README.md"] }
