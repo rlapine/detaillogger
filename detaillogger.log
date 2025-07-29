@@ -1,0 +1,24 @@
+2025-07-28 18:23:37,982 - DEBUG - Details:  This is a message
+2025-07-28 18:23:37,982 - DEBUG - From:     c:\Users\ryan\Visual Code Projects\git_repositories\detaillogger.py
+2025-07-28 18:23:37,983 - DEBUG - Function: main()
+2025-07-28 18:23:37,983 - DEBUG - Line:     177
+
+2025-07-28 18:24:16,191 - DEBUG - Exception type:    ZeroDivisionError
+2025-07-28 18:24:16,191 - DEBUG - Exception message: division by zero
+2025-07-28 18:24:16,191 - DEBUG - Details:           Additional
+2025-07-28 18:24:16,191 - DEBUG - File:              c:\Users\ryan\Visual Code Projects\git_repositories\detaillogger.py
+2025-07-28 18:24:16,192 - DEBUG - Function:          main
+2025-07-28 18:24:16,192 - DEBUG - Line:              185
+
+2025-07-28 18:24:36,247 - DEBUG - Exception type:    Exception
+2025-07-28 18:24:36,247 - DEBUG - Exception message: Booga
+2025-07-28 18:24:36,247 - DEBUG - File:              c:\Users\ryan\Visual Code Projects\git_repositories\detaillogger.py
+2025-07-28 18:24:36,248 - DEBUG - Function:          main
+2025-07-28 18:24:36,248 - DEBUG - Line:              193
+
+2025-07-28 18:24:36,248 - DEBUG - Exception type:    Exception
+2025-07-28 18:24:36,249 - DEBUG - Exception message: Hooga
+2025-07-28 18:24:36,249 - DEBUG - File:              c:\Users\ryan\Visual Code Projects\git_repositories\detaillogger.py
+2025-07-28 18:24:36,249 - DEBUG - Function:          main
+2025-07-28 18:24:36,250 - DEBUG - Line:              193
+
