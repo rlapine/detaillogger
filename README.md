@@ -6,7 +6,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/rlapine/detaillogger?style=social)](https://github.com/rlapine/detaillogger/network/members)
 [![Tests](https://github.com/rlapine/detaillogger/actions/workflows/python-tests.yml/badge.svg)](https://github.com/rlapine/detaillogger/actions)
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Date:** July 28, 2025
 
 DetailLogger is a lightweight Python utility for enhanced logging and exception tracing. It automatically captures contextual information—such as file name, function, and line number—whenever messages or exceptions are logged. Ideal for debugging, monitoring, and building maintainable systems.
@@ -133,7 +133,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-Created by [@rlapine](https://github.com/rlapine) — a technically skilled developer focused on clarity, maintainability, and audience-ready documentation. This class is part of a broader effort to build reusable, well-documented tools for data-driven projects.
+Created by Ryan LaPine [@rlapine](https://github.com/rlapine) — a technically skilled developer focused on clarity, maintainability, and audience-ready documentation. This class is part of a broader effort to build reusable, well-documented tools for data-driven projects.
 
 ---
 
