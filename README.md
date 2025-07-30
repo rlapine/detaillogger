@@ -84,8 +84,7 @@ except Exception as e:
 
 **File Output:**
 
-![detail.log](image.png)
-![detail.log](https://raw.githubusercontent.com/rlapine/detaillogger/main/assets/banner.png)
+![detail.log](https://raw.githubusercontent.com/rlapine/detaillogger/main/assets/image.png)
 ---
 
 ## ✍️ API Overview
