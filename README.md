@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/colorprinter_logo.png" alt="colorprinter logo" width="400"/>
+</p>
+
+## 🎨 colorprinter
 # 📋 DetailLogger
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
@@ -147,7 +152,4 @@ Feel free to reach out with questions or collaboration ideas:
 
 📧 github.stunt845@passinbox.com  
 🔗 GitHub: [@rlapine](https://github.com/rlapine)
-```
-
----
 
