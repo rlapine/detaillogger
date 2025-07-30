@@ -1,45 +1,30 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "detaillogger"
-version = "0.1.1"
-description = "DetailLogger is a lightweight Python utility for enhanced logging and exception tracing. It automatically captures contextual information—such as file name, function, and line number—whenever messages or exceptions are logged. Ideal for debugging, monitoring, and building maintainable systems."
-authors = [
-  { name = "Ryan LaPine", email = "github.stunt845@passinbox.com" }
-]
-maintainers = [
-  { name = "Ryan LaPine", email = "github.stunt845@passinbox.com" }
-]
+name = "PrintPop"
+version = "0.1.2"
+description = "Styled console printing made simple — color, format, and clarity in one package."
 readme = "README.md"
-license = { file = "LICENSE" }
-requires-python = ">=3.8"
-
-dependencies = [
-  "typing-extensions"
-]
-
-classifiers = [
-  "Development Status :: 3 - Alpha",
-  "Intended Audience :: Developers",
-  "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
-  "Operating System :: OS Independent",
-  "Topic :: Software Development :: Libraries :: Python Modules"
-]
+authors = [{ name="Ryan LaPine", email="github.stunt845@passinbox.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.7"
+dependencies = [] 
 
 [project.urls]
-Homepage = "https://github.com/rlapine/detaillogger"
-Documentation = "https://github.com/rlapine/detaillogger#readme"
-Source = "https://github.com/rlapine/detaillogger"
-Issues = "https://github.com/rlapine/detaillogger/issues"
+Homepage = "https://github.com/rlapine/DetailLogger"
+Repository = "https://github.com/rlapine/DetailLogger"
+Issues = "https://github.com/rlapine/DetailLogger/issues"
 
 [project.scripts]
-detaillogger = "detaillogger.cli:main"
+detaillogger = "detaillogger.detaillogger:main"
 
-[tool.setuptools.packages.find]
-where = ["."]
-
-[tool.setuptools.dynamic]
-description = { file = ["README.md"] }
+[project.classifiers]
+# Full list: https://pypi.org/classifiers/
+"Programming Language :: Python :: 3"
+"License :: OSI Approved :: MIT License"
+"Operating System :: OS Independent"
+"Intended Audience :: Developers"
+"Topic :: Software Development :: Libraries"
+"Topic :: Utilities"

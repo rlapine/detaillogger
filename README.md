@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/colorprinter_logo.png" alt="colorprinter logo" width="400"/>
+  <img src="https://raw.githubusercontent.com/rlapine/detaillogger/refs/heads/main/assets/detail_logger_logo_2.png" alt="PrintPop logo" width="400"/>
 </p>
 
 ## 🎨 colorprinter

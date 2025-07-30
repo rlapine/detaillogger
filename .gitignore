@@ -1,8 +1,15 @@
-# Packaging artifacts
-dist/
-build/
-*.egg-info/
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.egg-info/
+*.egg

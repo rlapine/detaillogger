@@ -4,8 +4,8 @@ detaillogger.py
 DetailLogger: A logger for detailed tracebacks and caller info.
 
 Author: Ryan LaPine
-Date:   2025-07-29
-Version:1.1
+Date:   2025-07-30
+Version:1.2
 """
 
 import logging
