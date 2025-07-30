@@ -1,3 +1,22 @@
+Metadata-Version: 2.4
+Name: PrintPop
+Version: 0.1.3
+Summary: Styled console printing made simple — color, format, and clarity in one package.
+Home-page: https://github.com/rlapine/DetailLogger
+Author: Ryan LaPine
+Author-email: github.stunt845@passinbox.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/rlapine/detaillogger/refs/heads/main/assets/detaillogger_logo_2.png" alt="PrintPop logo" width="400"/>
 </p>

@@ -9,4 +9,4 @@ and line number—whenever messages or exceptions are logged.
 Ideal for debugging, monitoring, and building maintainable systems.
 """
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"

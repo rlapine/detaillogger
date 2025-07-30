@@ -5,7 +5,7 @@ DetailLogger: A logger for detailed tracebacks and caller info.
 
 Author: Ryan LaPine
 Date:   2025-07-30
-Version:1.2
+Version:0.1.3
 """
 
 import logging
@@ -158,6 +158,8 @@ def main() -> None:
     """
     Simple CLI for testing DetailLogger.
     """
+    print()
+    print()
     log_to_file = input("Also log to file? (y/n):").strip().lower() == 'y'
     file_name = None
     if log_to_file:
@@ -195,6 +197,7 @@ def main() -> None:
                 detail_logger.log_exception(ex)
                 log_exception(ex=ex)
             print("Custom exception logged.")
-
+    print()
+    print()
 if __name__ == "__main__":
     main()
