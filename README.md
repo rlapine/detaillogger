@@ -15,14 +15,7 @@ DetailLogger is a lightweight Python utility for enhanced logging and exception 
 
 ## 📦 Installation
 
-Clone this repository:
-
-```bash
-git clone https://github.com/rlapine/detaillogger.git
-cd detaillogger
-```
-
-No external dependencies are required.
+pip install detaillogger
 
 ---
 
@@ -92,7 +85,7 @@ except Exception as e:
 **File Output:**
 
 ![detail.log](image.png)
-
+![detail.log](https://raw.githubusercontent.com/rlapine/detaillogger/main/assets/banner.png)
 ---
 
 ## ✍️ API Overview
