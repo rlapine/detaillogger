@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rlapine/detaillogger/refs/heads/main/assets/detaillogger_logo_2.png" alt="PrintPop logo" width="400"/>
+  <img src="https://raw.githubusercontent.com/rlapine/detaillogger/refs/heads/main/assets/detaillogger_logo_2.png" alt="DetailLogger logo" width="400"/>
 </p>
 
 ---
 
-## 🎨 DetailLogger V 0.1.3
+## 🎨 DetailLogger V 0.1.4
 
 ---
 
@@ -47,9 +47,9 @@ DetailLogger is a lightweight Python utility for enhanced logging and exception 
 
 ## 🧪 Usage
 
-# Run the built-in CLI for testing:
+# Run the built-in CLI demo for testing:
 
-'python detaillogger.py`
+`python detaillogger.py`
 
 # Embedded Example
 
