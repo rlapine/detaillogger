@@ -80,7 +80,7 @@ except Exception as e:
 2025-07-28 17:05:22,186 - DEBUG - Line:              6
 ```
 
-### Embedded Example
+# Embedded Example
 
 ```
 # To log to a file and console, instantiate DetailLogger class with filename.
