@@ -4,7 +4,7 @@
 
 ---
 
-## 🎨 DetailLogger V 0.1.6
+## 🎨 DetailLogger V 0.1.8
 
 ---
 
