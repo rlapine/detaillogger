@@ -5,7 +5,7 @@ DetailLogger: A logger for detailed tracebacks and caller info.
 
 Author: Ryan LaPine
 Date:   2025-07-30
-Version:0.1.8
+Version:0.1.9
 """
 from .detail_logger import DetailLogger
 from typing import Optional
