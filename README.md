@@ -98,7 +98,7 @@ except Exception as e:
 **File Output:**
 
 ![detail.log](https://raw.githubusercontent.com/rlapine/detaillogger/main/assets/image.png)
-
+```
 Also log to file? (y/n):y
 Enter filname:detail.log
 
