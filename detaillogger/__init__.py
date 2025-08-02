@@ -9,4 +9,6 @@ and line number—whenever messages or exceptions are logged.
 Ideal for debugging, monitoring, and building maintainable systems.
 """
 
-__version__ = "0.1.4"
+__version__ = "0.1.8"
+
+from .core import log, log_exception

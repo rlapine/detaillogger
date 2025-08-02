@@ -1,0 +1,2295 @@
+2025-08-01 14:37:41,431 - DEBUG - MESSAGE
+2025-08-01 14:37:41,442 - DEBUG - Details:    Test of DetailLogger
+2025-08-01 14:37:41,442 - DEBUG - File:       detail_logger.py
+2025-08-01 14:37:41,443 - DEBUG - Function:   main()
+2025-08-01 14:37:41,443 - DEBUG - Line:       183
+2025-08-01 14:37:41,443 - DEBUG - User:       ryan
+
+2025-08-01 14:37:41,443 - DEBUG - EXCEPTION
+2025-08-01 14:37:41,443 - DEBUG - Exception Type:	ZeroDivisionError
+2025-08-01 14:37:41,443 - DEBUG - Exception Message:	division by zero
+2025-08-01 14:37:41,444 - DEBUG - Exception Details:	Div by Zero Test
+2025-08-01 14:37:41,444 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 14:37:41,444 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:37:41,445 - DEBUG - Exception Line:	167
+2025-08-01 14:37:41,445 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 14:37:41,445 - DEBUG - ---------------------------------------------
+2025-08-01 14:37:41,445 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:37:41,445 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:37:41,446 - DEBUG - Traceback(1) Line:	187
+2025-08-01 14:37:41,446 - DEBUG - Traceback(1) Code:	throw_div_zero()
+2025-08-01 14:37:41,446 - DEBUG - ---------------------------------------------
+2025-08-01 14:37:41,446 - DEBUG - Traceback(2) From:	throw_div_zero()
+2025-08-01 14:37:41,446 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:37:41,447 - DEBUG - Traceback(2) Line:	167
+2025-08-01 14:37:41,447 - DEBUG - Traceback(2) Code:	x = 1/0
+2025-08-01 14:37:41,447 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:37:41,447 - DEBUG - EXCEPTION
+2025-08-01 14:37:41,447 - DEBUG - Exception Type:	ValueError
+2025-08-01 14:37:41,447 - DEBUG - Exception Message:	invalid literal for int() with base 10: 'Value Error'
+2025-08-01 14:37:41,447 - DEBUG - Exception Details:	Value Error Test
+2025-08-01 14:37:41,447 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 14:37:41,448 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:37:41,448 - DEBUG - Exception Line:	170
+2025-08-01 14:37:41,448 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 14:37:41,448 - DEBUG - ---------------------------------------------
+2025-08-01 14:37:41,448 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:37:41,448 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:37:41,448 - DEBUG - Traceback(1) Line:	192
+2025-08-01 14:37:41,448 - DEBUG - Traceback(1) Code:	throw_value_error()
+2025-08-01 14:37:41,448 - DEBUG - ---------------------------------------------
+2025-08-01 14:37:41,449 - DEBUG - Traceback(2) From:	throw_value_error()
+2025-08-01 14:37:41,449 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:37:41,449 - DEBUG - Traceback(2) Line:	170
+2025-08-01 14:37:41,449 - DEBUG - Traceback(2) Code:	int("Value Error")
+2025-08-01 14:37:41,449 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:37:41,449 - DEBUG - EXCEPTION
+2025-08-01 14:37:41,449 - DEBUG - Exception Type:	IndexError
+2025-08-01 14:37:41,449 - DEBUG - Exception Message:	list index out of range
+2025-08-01 14:37:41,449 - DEBUG - Exception Details:	Index Error Test
+2025-08-01 14:37:41,450 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 14:37:41,450 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:37:41,450 - DEBUG - Exception Line:	174
+2025-08-01 14:37:41,450 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 14:37:41,450 - DEBUG - ---------------------------------------------
+2025-08-01 14:37:41,450 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:37:41,451 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:37:41,451 - DEBUG - Traceback(1) Line:	197
+2025-08-01 14:37:41,451 - DEBUG - Traceback(1) Code:	throw_index_error()
+2025-08-01 14:37:41,451 - DEBUG - ---------------------------------------------
+2025-08-01 14:37:41,451 - DEBUG - Traceback(2) From:	throw_index_error()
+2025-08-01 14:37:41,451 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:37:41,451 - DEBUG - Traceback(2) Line:	174
+2025-08-01 14:37:41,452 - DEBUG - Traceback(2) Code:	x = a_list[1]
+2025-08-01 14:37:41,452 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:43:38,348 - DEBUG - MESSAGE
+2025-08-01 14:43:38,359 - DEBUG - Details:    Test of DetailLogger
+2025-08-01 14:43:38,359 - DEBUG - File:       detail_logger.py
+2025-08-01 14:43:38,359 - DEBUG - Function:   main()
+2025-08-01 14:43:38,360 - DEBUG - Line:       183
+2025-08-01 14:43:38,360 - DEBUG - User:       ryan
+
+2025-08-01 14:43:38,360 - DEBUG - EXCEPTION
+2025-08-01 14:43:38,360 - DEBUG - Exception Type:	ZeroDivisionError
+2025-08-01 14:43:38,360 - DEBUG - Exception Message:	division by zero
+2025-08-01 14:43:38,361 - DEBUG - Exception Details:	Div by Zero Test
+2025-08-01 14:43:38,361 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 14:43:38,361 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:43:38,361 - DEBUG - Exception Line:	167
+2025-08-01 14:43:38,361 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 14:43:38,362 - DEBUG - ---------------------------------------------
+2025-08-01 14:43:38,362 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:43:38,362 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:43:38,362 - DEBUG - Traceback(1) Line:	187
+2025-08-01 14:43:38,362 - DEBUG - Traceback(1) Code:	throw_div_zero()
+2025-08-01 14:43:38,362 - DEBUG - ---------------------------------------------
+2025-08-01 14:43:38,363 - DEBUG - Traceback(2) From:	throw_div_zero()
+2025-08-01 14:43:38,363 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:43:38,363 - DEBUG - Traceback(2) Line:	167
+2025-08-01 14:43:38,363 - DEBUG - Traceback(2) Code:	x = 1/0
+2025-08-01 14:43:38,363 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:43:38,363 - DEBUG - EXCEPTION
+2025-08-01 14:43:38,363 - DEBUG - Exception Type:	ValueError
+2025-08-01 14:43:38,363 - DEBUG - Exception Message:	invalid literal for int() with base 10: 'Value Error'
+2025-08-01 14:43:38,364 - DEBUG - Exception Details:	Value Error Test
+2025-08-01 14:43:38,364 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 14:43:38,364 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:43:38,364 - DEBUG - Exception Line:	170
+2025-08-01 14:43:38,364 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 14:43:38,364 - DEBUG - ---------------------------------------------
+2025-08-01 14:43:38,365 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:43:38,365 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:43:38,365 - DEBUG - Traceback(1) Line:	192
+2025-08-01 14:43:38,365 - DEBUG - Traceback(1) Code:	throw_value_error()
+2025-08-01 14:43:38,365 - DEBUG - ---------------------------------------------
+2025-08-01 14:43:38,365 - DEBUG - Traceback(2) From:	throw_value_error()
+2025-08-01 14:43:38,365 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:43:38,366 - DEBUG - Traceback(2) Line:	170
+2025-08-01 14:43:38,366 - DEBUG - Traceback(2) Code:	int("Value Error")
+2025-08-01 14:43:38,366 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:43:38,366 - DEBUG - EXCEPTION
+2025-08-01 14:43:38,366 - DEBUG - Exception Type:	IndexError
+2025-08-01 14:43:38,366 - DEBUG - Exception Message:	list index out of range
+2025-08-01 14:43:38,367 - DEBUG - Exception Details:	Index Error Test
+2025-08-01 14:43:38,367 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 14:43:38,367 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:43:38,367 - DEBUG - Exception Line:	174
+2025-08-01 14:43:38,367 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 14:43:38,367 - DEBUG - ---------------------------------------------
+2025-08-01 14:43:38,368 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:43:38,368 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:43:38,368 - DEBUG - Traceback(1) Line:	197
+2025-08-01 14:43:38,368 - DEBUG - Traceback(1) Code:	throw_index_error()
+2025-08-01 14:43:38,368 - DEBUG - ---------------------------------------------
+2025-08-01 14:43:38,369 - DEBUG - Traceback(2) From:	throw_index_error()
+2025-08-01 14:43:38,369 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:43:38,369 - DEBUG - Traceback(2) Line:	174
+2025-08-01 14:43:38,369 - DEBUG - Traceback(2) Code:	x = a_list[1]
+2025-08-01 14:43:38,370 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:45:40,785 - DEBUG - MESSAGE
+2025-08-01 14:45:40,796 - DEBUG - Message Details:	Test of DetailLogger
+2025-08-01 14:45:40,796 - DEBUG - Message File:	detail_logger.py
+2025-08-01 14:45:40,796 - DEBUG - Message Function:	main()
+2025-08-01 14:45:40,796 - DEBUG - Message Line:	183
+2025-08-01 14:45:40,797 - DEBUG - Message User:	ryan
+
+2025-08-01 14:45:40,797 - DEBUG - EXCEPTION
+2025-08-01 14:45:40,797 - DEBUG - Exception Type:	Exception
+2025-08-01 14:45:40,797 - DEBUG - Exception Message:	Test Exception Not Thrown
+2025-08-01 14:46:05,330 - DEBUG - MESSAGE
+2025-08-01 14:46:05,340 - DEBUG - Message Details:	Test of DetailLogger
+2025-08-01 14:46:05,341 - DEBUG - Message File:	detail_logger.py
+2025-08-01 14:46:05,341 - DEBUG - Message Function:	main()
+2025-08-01 14:46:05,341 - DEBUG - Message Line:	183
+2025-08-01 14:46:05,341 - DEBUG - Message User:	ryan
+
+2025-08-01 14:46:05,341 - DEBUG - EXCEPTION
+2025-08-01 14:46:05,342 - DEBUG - Exception Type:	Exception
+2025-08-01 14:46:05,342 - DEBUG - Exception Message:	Test Exception Not Thrown
+2025-08-01 14:46:05,342 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:46:05,342 - DEBUG - EXCEPTION
+2025-08-01 14:46:05,342 - DEBUG - Exception Type:	ZeroDivisionError
+2025-08-01 14:46:05,342 - DEBUG - Exception Message:	division by zero
+2025-08-01 14:46:05,343 - DEBUG - Exception Details:	Div by Zero Test
+2025-08-01 14:46:05,343 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 14:46:05,343 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:46:05,343 - DEBUG - Exception Line:	167
+2025-08-01 14:46:05,344 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 14:46:05,344 - DEBUG - ---------------------------------------------
+2025-08-01 14:46:05,344 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:46:05,344 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:46:05,344 - DEBUG - Traceback(1) Line:	187
+2025-08-01 14:46:05,345 - DEBUG - Traceback(1) Code:	throw_div_zero()
+2025-08-01 14:46:05,345 - DEBUG - ---------------------------------------------
+2025-08-01 14:46:05,345 - DEBUG - Traceback(2) From:	throw_div_zero()
+2025-08-01 14:46:05,345 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:46:05,345 - DEBUG - Traceback(2) Line:	167
+2025-08-01 14:46:05,345 - DEBUG - Traceback(2) Code:	x = 1/0
+2025-08-01 14:46:05,346 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:46:05,346 - DEBUG - EXCEPTION
+2025-08-01 14:46:05,346 - DEBUG - Exception Type:	ValueError
+2025-08-01 14:46:05,346 - DEBUG - Exception Message:	invalid literal for int() with base 10: 'Value Error'
+2025-08-01 14:46:05,346 - DEBUG - Exception Details:	Value Error Test
+2025-08-01 14:46:05,346 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 14:46:05,347 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:46:05,347 - DEBUG - Exception Line:	170
+2025-08-01 14:46:05,347 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 14:46:05,347 - DEBUG - ---------------------------------------------
+2025-08-01 14:46:05,347 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:46:05,347 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:46:05,347 - DEBUG - Traceback(1) Line:	192
+2025-08-01 14:46:05,347 - DEBUG - Traceback(1) Code:	throw_value_error()
+2025-08-01 14:46:05,348 - DEBUG - ---------------------------------------------
+2025-08-01 14:46:05,348 - DEBUG - Traceback(2) From:	throw_value_error()
+2025-08-01 14:46:05,348 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:46:05,348 - DEBUG - Traceback(2) Line:	170
+2025-08-01 14:46:05,348 - DEBUG - Traceback(2) Code:	int("Value Error")
+2025-08-01 14:46:05,348 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:46:05,349 - DEBUG - EXCEPTION
+2025-08-01 14:46:05,349 - DEBUG - Exception Type:	IndexError
+2025-08-01 14:46:05,349 - DEBUG - Exception Message:	list index out of range
+2025-08-01 14:46:05,349 - DEBUG - Exception Details:	Index Error Test
+2025-08-01 14:46:05,350 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 14:46:05,350 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:46:05,350 - DEBUG - Exception Line:	174
+2025-08-01 14:46:05,350 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 14:46:05,350 - DEBUG - ---------------------------------------------
+2025-08-01 14:46:05,351 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:46:05,351 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:46:05,351 - DEBUG - Traceback(1) Line:	197
+2025-08-01 14:46:05,351 - DEBUG - Traceback(1) Code:	throw_index_error()
+2025-08-01 14:46:05,351 - DEBUG - ---------------------------------------------
+2025-08-01 14:46:05,351 - DEBUG - Traceback(2) From:	throw_index_error()
+2025-08-01 14:46:05,351 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:46:05,351 - DEBUG - Traceback(2) Line:	174
+2025-08-01 14:46:05,352 - DEBUG - Traceback(2) Code:	x = a_list[1]
+2025-08-01 14:46:05,352 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:51:24,603 - DEBUG - MESSAGE
+2025-08-01 14:51:24,614 - DEBUG - Message Details:	Test of DetailLogger
+2025-08-01 14:51:24,614 - DEBUG - Message File:	detail_logger.py
+2025-08-01 14:51:24,614 - DEBUG - Message Function:	main()
+2025-08-01 14:51:24,614 - DEBUG - Message Line:	192
+2025-08-01 14:51:24,615 - DEBUG - Message User:	ryan
+
+2025-08-01 14:51:24,615 - DEBUG - EXCEPTION
+2025-08-01 14:51:24,615 - DEBUG - Exception Type:	Exception
+2025-08-01 14:51:24,615 - DEBUG - Exception Message:	Test Exception Not Thrown
+2025-08-01 14:51:24,616 - DEBUG - Exception From:	main()
+2025-08-01 14:51:24,616 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:51:24,616 - DEBUG - Exception Line:	193
+2025-08-01 14:51:24,616 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:51:24,616 - DEBUG - EXCEPTION
+2025-08-01 14:51:24,617 - DEBUG - Exception Type:	ZeroDivisionError
+2025-08-01 14:51:24,617 - DEBUG - Exception Message:	division by zero
+2025-08-01 14:51:24,617 - DEBUG - Exception Details:	Div by Zero Test
+2025-08-01 14:51:24,617 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 14:51:24,617 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:51:24,617 - DEBUG - Exception Line:	176
+2025-08-01 14:51:24,618 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 14:51:24,618 - DEBUG - ---------------------------------------------
+2025-08-01 14:51:24,618 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:51:24,618 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:51:24,618 - DEBUG - Traceback(1) Line:	196
+2025-08-01 14:51:24,618 - DEBUG - Traceback(1) Code:	throw_div_zero()
+2025-08-01 14:51:24,619 - DEBUG - ---------------------------------------------
+2025-08-01 14:51:24,619 - DEBUG - Traceback(2) From:	throw_div_zero()
+2025-08-01 14:51:24,619 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:51:24,619 - DEBUG - Traceback(2) Line:	176
+2025-08-01 14:51:24,619 - DEBUG - Traceback(2) Code:	x = 1/0
+2025-08-01 14:51:24,619 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:51:24,620 - DEBUG - EXCEPTION
+2025-08-01 14:51:24,620 - DEBUG - Exception Type:	ValueError
+2025-08-01 14:51:24,620 - DEBUG - Exception Message:	invalid literal for int() with base 10: 'Value Error'
+2025-08-01 14:51:24,620 - DEBUG - Exception Details:	Value Error Test
+2025-08-01 14:51:24,620 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 14:51:24,620 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:51:24,620 - DEBUG - Exception Line:	179
+2025-08-01 14:51:24,621 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 14:51:24,621 - DEBUG - ---------------------------------------------
+2025-08-01 14:51:24,621 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:51:24,621 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:51:24,621 - DEBUG - Traceback(1) Line:	201
+2025-08-01 14:51:24,621 - DEBUG - Traceback(1) Code:	throw_value_error()
+2025-08-01 14:51:24,621 - DEBUG - ---------------------------------------------
+2025-08-01 14:51:24,621 - DEBUG - Traceback(2) From:	throw_value_error()
+2025-08-01 14:51:24,622 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:51:24,622 - DEBUG - Traceback(2) Line:	179
+2025-08-01 14:51:24,622 - DEBUG - Traceback(2) Code:	int("Value Error")
+2025-08-01 14:51:24,622 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:51:24,622 - DEBUG - EXCEPTION
+2025-08-01 14:51:24,622 - DEBUG - Exception Type:	IndexError
+2025-08-01 14:51:24,622 - DEBUG - Exception Message:	list index out of range
+2025-08-01 14:51:24,623 - DEBUG - Exception Details:	Index Error Test
+2025-08-01 14:51:24,623 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 14:51:24,623 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:51:24,623 - DEBUG - Exception Line:	183
+2025-08-01 14:51:24,623 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 14:51:24,623 - DEBUG - ---------------------------------------------
+2025-08-01 14:51:24,623 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:51:24,623 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:51:24,623 - DEBUG - Traceback(1) Line:	206
+2025-08-01 14:51:24,624 - DEBUG - Traceback(1) Code:	throw_index_error()
+2025-08-01 14:51:24,624 - DEBUG - ---------------------------------------------
+2025-08-01 14:51:24,624 - DEBUG - Traceback(2) From:	throw_index_error()
+2025-08-01 14:51:24,624 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:51:24,624 - DEBUG - Traceback(2) Line:	183
+2025-08-01 14:51:24,624 - DEBUG - Traceback(2) Code:	x = a_list[1]
+2025-08-01 14:51:24,624 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:54:32,742 - DEBUG - MESSAGE
+2025-08-01 14:54:32,753 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 14:54:32,753 - DEBUG - Message File:         detail_logger.py
+2025-08-01 14:54:32,753 - DEBUG - Message Function:     main()
+2025-08-01 14:54:32,753 - DEBUG - Message Line:         192
+2025-08-01 14:54:32,754 - DEBUG - Message User:         ryan
+
+2025-08-01 14:54:32,754 - DEBUG - EXCEPTION
+2025-08-01 14:54:32,754 - DEBUG - Exception Type:	Exception
+2025-08-01 14:54:32,754 - DEBUG - Exception Message:	Test Exception Not Thrown
+2025-08-01 14:54:32,754 - DEBUG - Exception From:	main()
+2025-08-01 14:54:32,755 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:54:32,755 - DEBUG - Exception Line:	193
+2025-08-01 14:54:32,755 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:54:32,755 - DEBUG - EXCEPTION
+2025-08-01 14:54:32,755 - DEBUG - Exception Type:	ZeroDivisionError
+2025-08-01 14:54:32,756 - DEBUG - Exception Message:	division by zero
+2025-08-01 14:54:32,756 - DEBUG - Exception Details:	Div by Zero Test
+2025-08-01 14:54:32,756 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 14:54:32,756 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:54:32,756 - DEBUG - Exception Line:	176
+2025-08-01 14:54:32,756 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 14:54:32,757 - DEBUG - ---------------------------------------------
+2025-08-01 14:54:32,757 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:54:32,757 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:54:32,757 - DEBUG - Traceback(1) Line:	196
+2025-08-01 14:54:32,757 - DEBUG - Traceback(1) Code:	throw_div_zero()
+2025-08-01 14:54:32,757 - DEBUG - ---------------------------------------------
+2025-08-01 14:54:32,758 - DEBUG - Traceback(2) From:	throw_div_zero()
+2025-08-01 14:54:32,758 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:54:32,758 - DEBUG - Traceback(2) Line:	176
+2025-08-01 14:54:32,758 - DEBUG - Traceback(2) Code:	x = 1/0
+2025-08-01 14:54:32,758 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:54:32,758 - DEBUG - EXCEPTION
+2025-08-01 14:54:32,759 - DEBUG - Exception Type:	ValueError
+2025-08-01 14:54:32,759 - DEBUG - Exception Message:	invalid literal for int() with base 10: 'Value Error'
+2025-08-01 14:54:32,759 - DEBUG - Exception Details:	Value Error Test
+2025-08-01 14:54:32,759 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 14:54:32,759 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:54:32,759 - DEBUG - Exception Line:	179
+2025-08-01 14:54:32,760 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 14:54:32,760 - DEBUG - ---------------------------------------------
+2025-08-01 14:54:32,760 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:54:32,760 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:54:32,760 - DEBUG - Traceback(1) Line:	201
+2025-08-01 14:54:32,760 - DEBUG - Traceback(1) Code:	throw_value_error()
+2025-08-01 14:54:32,760 - DEBUG - ---------------------------------------------
+2025-08-01 14:54:32,760 - DEBUG - Traceback(2) From:	throw_value_error()
+2025-08-01 14:54:32,761 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:54:32,761 - DEBUG - Traceback(2) Line:	179
+2025-08-01 14:54:32,761 - DEBUG - Traceback(2) Code:	int("Value Error")
+2025-08-01 14:54:32,761 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:54:32,761 - DEBUG - EXCEPTION
+2025-08-01 14:54:32,761 - DEBUG - Exception Type:	IndexError
+2025-08-01 14:54:32,761 - DEBUG - Exception Message:	list index out of range
+2025-08-01 14:54:32,761 - DEBUG - Exception Details:	Index Error Test
+2025-08-01 14:54:32,762 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 14:54:32,762 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:54:32,762 - DEBUG - Exception Line:	183
+2025-08-01 14:54:32,762 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 14:54:32,762 - DEBUG - ---------------------------------------------
+2025-08-01 14:54:32,762 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:54:32,762 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:54:32,762 - DEBUG - Traceback(1) Line:	206
+2025-08-01 14:54:32,762 - DEBUG - Traceback(1) Code:	throw_index_error()
+2025-08-01 14:54:32,763 - DEBUG - ---------------------------------------------
+2025-08-01 14:54:32,763 - DEBUG - Traceback(2) From:	throw_index_error()
+2025-08-01 14:54:32,763 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:54:32,763 - DEBUG - Traceback(2) Line:	183
+2025-08-01 14:54:32,763 - DEBUG - Traceback(2) Code:	x = a_list[1]
+2025-08-01 14:54:32,763 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:55:39,220 - DEBUG - MESSAGE
+2025-08-01 14:55:39,231 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 14:55:39,231 - DEBUG - Message File:         detail_logger.py
+2025-08-01 14:55:39,231 - DEBUG - Message Function:     main()
+2025-08-01 14:55:39,231 - DEBUG - Message Line:         193
+2025-08-01 14:55:39,231 - DEBUG - Message User:         ryan
+
+2025-08-01 14:55:39,231 - DEBUG - EXCEPTION
+2025-08-01 14:55:39,232 - DEBUG - Exception Type:       Exception
+2025-08-01 14:55:39,232 - DEBUG - Exception Message:    Test Exception Not Thrown
+2025-08-01 14:55:39,232 - DEBUG - Exception From:	main()
+2025-08-01 14:55:39,232 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:55:39,232 - DEBUG - Exception Line:	194
+2025-08-01 14:55:39,233 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:55:39,233 - DEBUG - EXCEPTION
+2025-08-01 14:55:39,233 - DEBUG - Exception Type:       ZeroDivisionError
+2025-08-01 14:55:39,233 - DEBUG - Exception Message:    division by zero
+2025-08-01 14:55:39,233 - DEBUG - Exception Details:    Div by Zero Test
+2025-08-01 14:55:39,234 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 14:55:39,234 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:55:39,234 - DEBUG - Exception Line:	177
+2025-08-01 14:55:39,234 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 14:55:39,235 - DEBUG - ---------------------------------------------
+2025-08-01 14:55:39,235 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:55:39,235 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:55:39,235 - DEBUG - Traceback(1) Line:	197
+2025-08-01 14:55:39,235 - DEBUG - Traceback(1) Code:	throw_div_zero()
+2025-08-01 14:55:39,236 - DEBUG - ---------------------------------------------
+2025-08-01 14:55:39,236 - DEBUG - Traceback(2) From:	throw_div_zero()
+2025-08-01 14:55:39,236 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:55:39,236 - DEBUG - Traceback(2) Line:	177
+2025-08-01 14:55:39,236 - DEBUG - Traceback(2) Code:	x = 1/0
+2025-08-01 14:55:39,236 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:55:39,237 - DEBUG - EXCEPTION
+2025-08-01 14:55:39,237 - DEBUG - Exception Type:       ValueError
+2025-08-01 14:55:39,237 - DEBUG - Exception Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 14:55:39,237 - DEBUG - Exception Details:    Value Error Test
+2025-08-01 14:55:39,237 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 14:55:39,237 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:55:39,238 - DEBUG - Exception Line:	180
+2025-08-01 14:55:39,238 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 14:55:39,238 - DEBUG - ---------------------------------------------
+2025-08-01 14:55:39,238 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:55:39,238 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:55:39,238 - DEBUG - Traceback(1) Line:	202
+2025-08-01 14:55:39,238 - DEBUG - Traceback(1) Code:	throw_value_error()
+2025-08-01 14:55:39,239 - DEBUG - ---------------------------------------------
+2025-08-01 14:55:39,239 - DEBUG - Traceback(2) From:	throw_value_error()
+2025-08-01 14:55:39,239 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:55:39,239 - DEBUG - Traceback(2) Line:	180
+2025-08-01 14:55:39,239 - DEBUG - Traceback(2) Code:	int("Value Error")
+2025-08-01 14:55:39,239 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:55:39,240 - DEBUG - EXCEPTION
+2025-08-01 14:55:39,240 - DEBUG - Exception Type:       IndexError
+2025-08-01 14:55:39,240 - DEBUG - Exception Message:    list index out of range
+2025-08-01 14:55:39,240 - DEBUG - Exception Details:    Index Error Test
+2025-08-01 14:55:39,240 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 14:55:39,241 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:55:39,241 - DEBUG - Exception Line:	184
+2025-08-01 14:55:39,241 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 14:55:39,241 - DEBUG - ---------------------------------------------
+2025-08-01 14:55:39,241 - DEBUG - Traceback(1) From:	main()
+2025-08-01 14:55:39,242 - DEBUG - Traceback(1) File:	detail_logger.py
+2025-08-01 14:55:39,242 - DEBUG - Traceback(1) Line:	207
+2025-08-01 14:55:39,242 - DEBUG - Traceback(1) Code:	throw_index_error()
+2025-08-01 14:55:39,242 - DEBUG - ---------------------------------------------
+2025-08-01 14:55:39,242 - DEBUG - Traceback(2) From:	throw_index_error()
+2025-08-01 14:55:39,243 - DEBUG - Traceback(2) File:	detail_logger.py
+2025-08-01 14:55:39,243 - DEBUG - Traceback(2) Line:	184
+2025-08-01 14:55:39,243 - DEBUG - Traceback(2) Code:	x = a_list[1]
+2025-08-01 14:55:39,243 - DEBUG - Exception User:	ryan
+
+2025-08-01 14:58:19,115 - DEBUG - MESSAGE
+2025-08-01 14:58:19,126 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 14:58:19,126 - DEBUG - Message File:         detail_logger.py
+2025-08-01 14:58:19,126 - DEBUG - Message Function:     main()
+2025-08-01 14:58:19,126 - DEBUG - Message Line:         197
+2025-08-01 14:58:19,127 - DEBUG - Message User:         ryan
+
+2025-08-01 14:58:19,127 - DEBUG - EXCEPTION
+2025-08-01 14:58:19,127 - DEBUG - Exception Type:       Exception
+2025-08-01 14:58:19,127 - DEBUG - Exception Message:    Test Exception Not Thrown
+2025-08-01 14:58:19,127 - DEBUG - Exception From:       main()
+2025-08-01 14:58:19,128 - DEBUG - Exception File:       detail_logger.py
+2025-08-01 14:58:19,128 - DEBUG - Exception Line:       198
+2025-08-01 14:58:19,128 - DEBUG - Exception User:       ryan
+
+2025-08-01 14:58:19,128 - DEBUG - EXCEPTION
+2025-08-01 14:58:19,128 - DEBUG - Exception Type:       ZeroDivisionError
+2025-08-01 14:58:19,129 - DEBUG - Exception Message:    division by zero
+2025-08-01 14:58:19,129 - DEBUG - Exception Details:    Div by Zero Test
+2025-08-01 14:58:19,129 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 14:58:19,129 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:58:19,129 - DEBUG - Exception Line:	181
+2025-08-01 14:58:19,129 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 14:58:19,130 - DEBUG - ---------------------------------------------
+2025-08-01 14:58:19,130 - DEBUG - Traceback(1) From:    main()
+2025-08-01 14:58:19,130 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 14:58:19,130 - DEBUG - Traceback(1) Line:    201
+2025-08-01 14:58:19,130 - DEBUG - Traceback(1) Code:    throw_div_zero()
+2025-08-01 14:58:19,130 - DEBUG - ---------------------------------------------
+2025-08-01 14:58:19,131 - DEBUG - Traceback(2) From:    throw_div_zero()
+2025-08-01 14:58:19,131 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 14:58:19,131 - DEBUG - Traceback(2) Line:    181
+2025-08-01 14:58:19,131 - DEBUG - Traceback(2) Code:    x = 1/0
+2025-08-01 14:58:19,131 - DEBUG - Exception User:       ryan
+
+2025-08-01 14:58:19,131 - DEBUG - EXCEPTION
+2025-08-01 14:58:19,131 - DEBUG - Exception Type:       ValueError
+2025-08-01 14:58:19,132 - DEBUG - Exception Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 14:58:19,132 - DEBUG - Exception Details:    Value Error Test
+2025-08-01 14:58:19,132 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 14:58:19,132 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:58:19,132 - DEBUG - Exception Line:	184
+2025-08-01 14:58:19,132 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 14:58:19,133 - DEBUG - ---------------------------------------------
+2025-08-01 14:58:19,133 - DEBUG - Traceback(1) From:    main()
+2025-08-01 14:58:19,133 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 14:58:19,133 - DEBUG - Traceback(1) Line:    206
+2025-08-01 14:58:19,133 - DEBUG - Traceback(1) Code:    throw_value_error()
+2025-08-01 14:58:19,133 - DEBUG - ---------------------------------------------
+2025-08-01 14:58:19,133 - DEBUG - Traceback(2) From:    throw_value_error()
+2025-08-01 14:58:19,134 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 14:58:19,134 - DEBUG - Traceback(2) Line:    184
+2025-08-01 14:58:19,134 - DEBUG - Traceback(2) Code:    int("Value Error")
+2025-08-01 14:58:19,134 - DEBUG - Exception User:       ryan
+
+2025-08-01 14:58:19,134 - DEBUG - EXCEPTION
+2025-08-01 14:58:19,134 - DEBUG - Exception Type:       IndexError
+2025-08-01 14:58:19,134 - DEBUG - Exception Message:    list index out of range
+2025-08-01 14:58:19,135 - DEBUG - Exception Details:    Index Error Test
+2025-08-01 14:58:19,135 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 14:58:19,135 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 14:58:19,135 - DEBUG - Exception Line:	188
+2025-08-01 14:58:19,135 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 14:58:19,135 - DEBUG - ---------------------------------------------
+2025-08-01 14:58:19,135 - DEBUG - Traceback(1) From:    main()
+2025-08-01 14:58:19,135 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 14:58:19,136 - DEBUG - Traceback(1) Line:    211
+2025-08-01 14:58:19,136 - DEBUG - Traceback(1) Code:    throw_index_error()
+2025-08-01 14:58:19,136 - DEBUG - ---------------------------------------------
+2025-08-01 14:58:19,136 - DEBUG - Traceback(2) From:    throw_index_error()
+2025-08-01 14:58:19,136 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 14:58:19,136 - DEBUG - Traceback(2) Line:    188
+2025-08-01 14:58:19,136 - DEBUG - Traceback(2) Code:    x = a_list[1]
+2025-08-01 14:58:19,137 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:02:14,838 - DEBUG - MESSAGE
+2025-08-01 15:02:14,849 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 15:02:14,850 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:02:14,850 - DEBUG - Message Function:     <module>()
+2025-08-01 15:02:14,850 - DEBUG - Message Line:         216
+2025-08-01 15:02:14,850 - DEBUG - Message User:         ryan
+
+2025-08-01 15:02:14,850 - DEBUG - EXCEPTION
+2025-08-01 15:02:14,850 - DEBUG - Exception Type:       Exception
+2025-08-01 15:02:14,850 - DEBUG - Exception Message:    Test Exception Not Thrown
+2025-08-01 15:02:14,851 - DEBUG - Exception From:       <module>()
+2025-08-01 15:02:14,851 - DEBUG - Exception File:       detail_logger.py
+2025-08-01 15:02:14,851 - DEBUG - Exception Line:       216
+2025-08-01 15:02:14,851 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:02:14,852 - DEBUG - EXCEPTION
+2025-08-01 15:02:14,852 - DEBUG - Exception Type:       ZeroDivisionError
+2025-08-01 15:02:14,852 - DEBUG - Exception Message:    division by zero
+2025-08-01 15:02:14,852 - DEBUG - Exception Details:    Div by Zero Test
+2025-08-01 15:02:14,852 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 15:02:14,853 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:02:14,853 - DEBUG - Exception Line:	181
+2025-08-01 15:02:14,853 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 15:02:14,853 - DEBUG - ---------------------------------------------
+2025-08-01 15:02:14,853 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:02:14,853 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:02:14,854 - DEBUG - Traceback(1) Line:    201
+2025-08-01 15:02:14,854 - DEBUG - Traceback(1) Code:    throw_div_zero()
+2025-08-01 15:02:14,854 - DEBUG - ---------------------------------------------
+2025-08-01 15:02:14,854 - DEBUG - Traceback(2) From:    throw_div_zero()
+2025-08-01 15:02:14,854 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:02:14,854 - DEBUG - Traceback(2) Line:    181
+2025-08-01 15:02:14,855 - DEBUG - Traceback(2) Code:    x = 1/0
+2025-08-01 15:02:14,855 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:02:14,855 - DEBUG - EXCEPTION
+2025-08-01 15:02:14,855 - DEBUG - Exception Type:       ValueError
+2025-08-01 15:02:14,855 - DEBUG - Exception Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:02:14,855 - DEBUG - Exception Details:    Value Error Test
+2025-08-01 15:02:14,856 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 15:02:14,856 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:02:14,856 - DEBUG - Exception Line:	184
+2025-08-01 15:02:14,856 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 15:02:14,857 - DEBUG - ---------------------------------------------
+2025-08-01 15:02:14,857 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:02:14,857 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:02:14,857 - DEBUG - Traceback(1) Line:    206
+2025-08-01 15:02:14,857 - DEBUG - Traceback(1) Code:    throw_value_error()
+2025-08-01 15:02:14,857 - DEBUG - ---------------------------------------------
+2025-08-01 15:02:14,858 - DEBUG - Traceback(2) From:    throw_value_error()
+2025-08-01 15:02:14,858 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:02:14,858 - DEBUG - Traceback(2) Line:    184
+2025-08-01 15:02:14,858 - DEBUG - Traceback(2) Code:    int("Value Error")
+2025-08-01 15:02:14,858 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:02:14,858 - DEBUG - EXCEPTION
+2025-08-01 15:02:14,858 - DEBUG - Exception Type:       IndexError
+2025-08-01 15:02:14,859 - DEBUG - Exception Message:    list index out of range
+2025-08-01 15:02:14,859 - DEBUG - Exception Details:    Index Error Test
+2025-08-01 15:02:14,859 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 15:02:14,859 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:02:14,859 - DEBUG - Exception Line:	188
+2025-08-01 15:02:14,859 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 15:02:14,859 - DEBUG - ---------------------------------------------
+2025-08-01 15:02:14,859 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:02:14,860 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:02:14,860 - DEBUG - Traceback(1) Line:    211
+2025-08-01 15:02:14,860 - DEBUG - Traceback(1) Code:    throw_index_error()
+2025-08-01 15:02:14,860 - DEBUG - ---------------------------------------------
+2025-08-01 15:02:14,860 - DEBUG - Traceback(2) From:    throw_index_error()
+2025-08-01 15:02:14,860 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:02:14,860 - DEBUG - Traceback(2) Line:    188
+2025-08-01 15:02:14,860 - DEBUG - Traceback(2) Code:    x = a_list[1]
+2025-08-01 15:02:14,861 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:03:09,820 - DEBUG - MESSAGE
+2025-08-01 15:03:09,831 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 15:03:09,831 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:03:09,831 - DEBUG - Message Function:     <module>()
+2025-08-01 15:03:09,831 - DEBUG - Message Line:         217
+2025-08-01 15:03:09,831 - DEBUG - Message User:         ryan
+
+2025-08-01 15:03:09,831 - DEBUG - EXCEPTION
+2025-08-01 15:03:09,832 - DEBUG - Exception Type:       Exception
+2025-08-01 15:03:09,832 - DEBUG - Exception Message:    Test Exception Not Thrown
+2025-08-01 15:03:09,832 - DEBUG - Exception From:       <module>()
+2025-08-01 15:03:09,832 - DEBUG - Exception File:       detail_logger.py
+2025-08-01 15:03:09,832 - DEBUG - Exception Line:       217
+2025-08-01 15:03:09,833 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:03:09,833 - DEBUG - EXCEPTION
+2025-08-01 15:03:09,833 - DEBUG - Exception Type:       ZeroDivisionError
+2025-08-01 15:03:09,833 - DEBUG - Exception Message:    division by zero
+2025-08-01 15:03:09,833 - DEBUG - Exception Details:    Div by Zero Test
+2025-08-01 15:03:09,833 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 15:03:09,834 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:03:09,834 - DEBUG - Exception Line:	182
+2025-08-01 15:03:09,834 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 15:03:09,834 - DEBUG - ---------------------------------------------
+2025-08-01 15:03:09,834 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:03:09,834 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:03:09,835 - DEBUG - Traceback(1) Line:    202
+2025-08-01 15:03:09,835 - DEBUG - Traceback(1) Code:    throw_div_zero()
+2025-08-01 15:03:09,835 - DEBUG - ---------------------------------------------
+2025-08-01 15:03:09,835 - DEBUG - Traceback(2) From:    throw_div_zero()
+2025-08-01 15:03:09,835 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:03:09,836 - DEBUG - Traceback(2) Line:    182
+2025-08-01 15:03:09,836 - DEBUG - Traceback(2) Code:    x = 1/0
+2025-08-01 15:03:09,836 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:03:09,836 - DEBUG - EXCEPTION
+2025-08-01 15:03:09,836 - DEBUG - Exception Type:       ValueError
+2025-08-01 15:03:09,836 - DEBUG - Exception Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:03:09,837 - DEBUG - Exception Details:    Value Error Test
+2025-08-01 15:03:09,837 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 15:03:09,837 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:03:09,837 - DEBUG - Exception Line:	185
+2025-08-01 15:03:09,837 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 15:03:09,837 - DEBUG - ---------------------------------------------
+2025-08-01 15:03:09,837 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:03:09,838 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:03:09,838 - DEBUG - Traceback(1) Line:    207
+2025-08-01 15:03:09,838 - DEBUG - Traceback(1) Code:    throw_value_error()
+2025-08-01 15:03:09,838 - DEBUG - ---------------------------------------------
+2025-08-01 15:03:09,838 - DEBUG - Traceback(2) From:    throw_value_error()
+2025-08-01 15:03:09,838 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:03:09,838 - DEBUG - Traceback(2) Line:    185
+2025-08-01 15:03:09,838 - DEBUG - Traceback(2) Code:    int("Value Error")
+2025-08-01 15:03:09,839 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:03:09,839 - DEBUG - EXCEPTION
+2025-08-01 15:03:09,839 - DEBUG - Exception Type:       IndexError
+2025-08-01 15:03:09,839 - DEBUG - Exception Message:    list index out of range
+2025-08-01 15:03:09,840 - DEBUG - Exception Details:    Index Error Test
+2025-08-01 15:03:09,841 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 15:03:09,842 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:03:09,843 - DEBUG - Exception Line:	189
+2025-08-01 15:03:09,843 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 15:03:09,843 - DEBUG - ---------------------------------------------
+2025-08-01 15:03:09,843 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:03:09,844 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:03:09,844 - DEBUG - Traceback(1) Line:    212
+2025-08-01 15:03:09,844 - DEBUG - Traceback(1) Code:    throw_index_error()
+2025-08-01 15:03:09,844 - DEBUG - ---------------------------------------------
+2025-08-01 15:03:09,844 - DEBUG - Traceback(2) From:    throw_index_error()
+2025-08-01 15:03:09,844 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:03:09,845 - DEBUG - Traceback(2) Line:    189
+2025-08-01 15:03:09,845 - DEBUG - Traceback(2) Code:    x = a_list[1]
+2025-08-01 15:03:09,845 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:07:56,612 - DEBUG - MESSAGE
+2025-08-01 15:07:56,623 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 15:07:56,624 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:07:56,624 - DEBUG - Message Function:     <module>()
+2025-08-01 15:07:56,624 - DEBUG - Message Line:         218
+2025-08-01 15:07:56,624 - DEBUG - Message User:         ryan
+
+2025-08-01 15:07:56,624 - DEBUG - EXCEPTION
+2025-08-01 15:07:56,625 - DEBUG - Exception Type:       Exception
+2025-08-01 15:07:56,625 - DEBUG - Exception Message:    Test Exception Not Thrown
+2025-08-01 15:07:56,625 - DEBUG - Exception From:       <module>()
+2025-08-01 15:07:56,625 - DEBUG - Exception File:       detail_logger.py
+2025-08-01 15:07:56,625 - DEBUG - Exception Line:       218
+2025-08-01 15:07:56,626 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:07:56,626 - DEBUG - EXCEPTION
+2025-08-01 15:07:56,626 - DEBUG - Exception Type:       ZeroDivisionError
+2025-08-01 15:07:56,626 - DEBUG - Exception Message:    division by zero
+2025-08-01 15:07:56,626 - DEBUG - Exception Details:    Div by Zero Test
+2025-08-01 15:07:56,627 - DEBUG - Exception From:	throw_div_zero()
+2025-08-01 15:07:56,627 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:07:56,627 - DEBUG - Exception Line:	183
+2025-08-01 15:07:56,627 - DEBUG - Exception Code:	x = 1/0
+2025-08-01 15:07:56,627 - DEBUG - ---------------------------------------------
+2025-08-01 15:07:56,627 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:07:56,628 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:07:56,628 - DEBUG - Traceback(1) Line:    203
+2025-08-01 15:07:56,628 - DEBUG - Traceback(1) Code:    throw_div_zero()
+2025-08-01 15:07:56,628 - DEBUG - ---------------------------------------------
+2025-08-01 15:07:56,628 - DEBUG - Traceback(2) From:    throw_div_zero()
+2025-08-01 15:07:56,628 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:07:56,629 - DEBUG - Traceback(2) Line:    183
+2025-08-01 15:07:56,629 - DEBUG - Traceback(2) Code:    x = 1/0
+2025-08-01 15:07:56,629 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:07:56,629 - DEBUG - EXCEPTION
+2025-08-01 15:07:56,629 - DEBUG - Exception Type:       ValueError
+2025-08-01 15:07:56,629 - DEBUG - Exception Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:07:56,629 - DEBUG - Exception Details:    Value Error Test
+2025-08-01 15:07:56,630 - DEBUG - Exception From:	throw_value_error()
+2025-08-01 15:07:56,630 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:07:56,630 - DEBUG - Exception Line:	186
+2025-08-01 15:07:56,630 - DEBUG - Exception Code:	int("Value Error")
+2025-08-01 15:07:56,630 - DEBUG - ---------------------------------------------
+2025-08-01 15:07:56,630 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:07:56,630 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:07:56,630 - DEBUG - Traceback(1) Line:    208
+2025-08-01 15:07:56,630 - DEBUG - Traceback(1) Code:    throw_value_error()
+2025-08-01 15:07:56,630 - DEBUG - ---------------------------------------------
+2025-08-01 15:07:56,631 - DEBUG - Traceback(2) From:    throw_value_error()
+2025-08-01 15:07:56,631 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:07:56,631 - DEBUG - Traceback(2) Line:    186
+2025-08-01 15:07:56,631 - DEBUG - Traceback(2) Code:    int("Value Error")
+2025-08-01 15:07:56,631 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:07:56,631 - DEBUG - EXCEPTION
+2025-08-01 15:07:56,631 - DEBUG - Exception Type:       IndexError
+2025-08-01 15:07:56,631 - DEBUG - Exception Message:    list index out of range
+2025-08-01 15:07:56,632 - DEBUG - Exception Details:    Index Error Test
+2025-08-01 15:07:56,632 - DEBUG - Exception From:	throw_index_error()
+2025-08-01 15:07:56,632 - DEBUG - Exception File:	detail_logger.py
+2025-08-01 15:07:56,632 - DEBUG - Exception Line:	190
+2025-08-01 15:07:56,632 - DEBUG - Exception Code:	x = a_list[1]
+2025-08-01 15:07:56,632 - DEBUG - ---------------------------------------------
+2025-08-01 15:07:56,632 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:07:56,633 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:07:56,633 - DEBUG - Traceback(1) Line:    213
+2025-08-01 15:07:56,633 - DEBUG - Traceback(1) Code:    throw_index_error()
+2025-08-01 15:07:56,633 - DEBUG - ---------------------------------------------
+2025-08-01 15:07:56,633 - DEBUG - Traceback(2) From:    throw_index_error()
+2025-08-01 15:07:56,633 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:07:56,633 - DEBUG - Traceback(2) Line:    190
+2025-08-01 15:07:56,634 - DEBUG - Traceback(2) Code:    x = a_list[1]
+2025-08-01 15:07:56,634 - DEBUG - Exception User:       ryan
+
+2025-08-01 15:21:23,214 - DEBUG - MESSAGE
+2025-08-01 15:21:23,224 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 15:21:23,224 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:21:23,224 - DEBUG - Message Function:     <module>()
+2025-08-01 15:21:23,224 - DEBUG - Message Line:         234
+2025-08-01 15:21:23,224 - DEBUG - Message User:         ryan
+
+2025-08-01 15:21:23,224 - DEBUG - EXCEPTION
+2025-08-01 15:21:23,225 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:21:23,225 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:21:23,225 - DEBUG - MESSAGE
+2025-08-01 15:21:23,225 - DEBUG - Message Details:      Test Exception Not Thrown
+2025-08-01 15:21:23,225 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:21:23,226 - DEBUG - Message Function:     main()
+2025-08-01 15:21:23,226 - DEBUG - Message Line:         216
+2025-08-01 15:21:23,226 - DEBUG - Message User:         ryan
+
+2025-08-01 15:21:23,226 - DEBUG - EXCEPTION
+2025-08-01 15:21:23,226 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:21:23,226 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:21:23,227 - DEBUG - MESSAGE
+2025-08-01 15:21:23,227 - DEBUG - Message Details:      Div by Zero Test
+2025-08-01 15:21:23,227 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:21:23,227 - DEBUG - Message Function:     main()
+2025-08-01 15:21:23,227 - DEBUG - Message Line:         221
+2025-08-01 15:21:23,228 - DEBUG - Message User:         ryan
+
+2025-08-01 15:21:23,228 - DEBUG - EXCEPTION
+2025-08-01 15:21:23,228 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:21:23,228 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:21:23,228 - DEBUG - MESSAGE
+2025-08-01 15:21:23,228 - DEBUG - Message Details:      Value Error Test
+2025-08-01 15:21:23,229 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:21:23,229 - DEBUG - Message Function:     main()
+2025-08-01 15:21:23,229 - DEBUG - Message Line:         226
+2025-08-01 15:21:23,229 - DEBUG - Message User:         ryan
+
+2025-08-01 15:21:23,229 - DEBUG - EXCEPTION
+2025-08-01 15:21:23,230 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:21:23,230 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:21:23,230 - DEBUG - MESSAGE
+2025-08-01 15:21:23,230 - DEBUG - Message Details:      Index Error Test
+2025-08-01 15:21:23,230 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:21:23,231 - DEBUG - Message Function:     main()
+2025-08-01 15:21:23,231 - DEBUG - Message Line:         231
+2025-08-01 15:21:23,231 - DEBUG - Message User:         ryan
+
+2025-08-01 15:22:03,902 - DEBUG - MESSAGE
+2025-08-01 15:22:03,913 - DEBUG - Message Details:      Test of DetailLogger
+2025-08-01 15:22:03,913 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:22:03,913 - DEBUG - Message Function:     <module>()
+2025-08-01 15:22:03,913 - DEBUG - Message Line:         235
+2025-08-01 15:22:03,913 - DEBUG - Message User:         ryan
+
+2025-08-01 15:22:03,914 - DEBUG - EXCEPTION
+2025-08-01 15:22:03,914 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:22:03,914 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:22:03,914 - DEBUG - MESSAGE
+2025-08-01 15:22:03,915 - DEBUG - Message Details:      Test Exception Not Thrown
+2025-08-01 15:22:03,915 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:22:03,915 - DEBUG - Message Function:     main()
+2025-08-01 15:22:03,915 - DEBUG - Message Line:         216
+2025-08-01 15:22:03,915 - DEBUG - Message User:         ryan
+
+2025-08-01 15:22:03,916 - DEBUG - EXCEPTION
+2025-08-01 15:22:03,916 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:22:03,916 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:22:03,916 - DEBUG - MESSAGE
+2025-08-01 15:22:03,917 - DEBUG - Message Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:22:03,917 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:22:03,917 - DEBUG - Message Function:     main()
+2025-08-01 15:22:03,917 - DEBUG - Message Line:         217
+2025-08-01 15:22:03,917 - DEBUG - Message User:         ryan
+
+2025-08-01 15:22:03,918 - DEBUG - EXCEPTION
+2025-08-01 15:22:03,918 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:22:03,918 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:22:03,918 - DEBUG - MESSAGE
+2025-08-01 15:22:03,918 - DEBUG - Message Details:      Div by Zero Test
+2025-08-01 15:22:03,919 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:22:03,919 - DEBUG - Message Function:     main()
+2025-08-01 15:22:03,919 - DEBUG - Message Line:         222
+2025-08-01 15:22:03,919 - DEBUG - Message User:         ryan
+
+2025-08-01 15:22:03,919 - DEBUG - EXCEPTION
+2025-08-01 15:22:03,919 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:22:03,920 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:22:03,920 - DEBUG - MESSAGE
+2025-08-01 15:22:03,920 - DEBUG - Message Details:      Value Error Test
+2025-08-01 15:22:03,920 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:22:03,920 - DEBUG - Message Function:     main()
+2025-08-01 15:22:03,921 - DEBUG - Message Line:         227
+2025-08-01 15:22:03,921 - DEBUG - Message User:         ryan
+
+2025-08-01 15:22:03,921 - DEBUG - EXCEPTION
+2025-08-01 15:22:03,921 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:22:03,921 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:22:03,921 - DEBUG - MESSAGE
+2025-08-01 15:22:03,921 - DEBUG - Message Details:      Index Error Test
+2025-08-01 15:22:03,921 - DEBUG - Message File:         detail_logger.py
+2025-08-01 15:22:03,922 - DEBUG - Message Function:     main()
+2025-08-01 15:22:03,922 - DEBUG - Message Line:         232
+2025-08-01 15:22:03,922 - DEBUG - Message User:         ryan
+
+2025-08-01 15:28:20,289 - DEBUG - MESSAGE
+2025-08-01 15:28:20,299 - DEBUG - Message:      Test of DetailLogger
+2025-08-01 15:28:20,299 - DEBUG - File:         detail_logger.py
+2025-08-01 15:28:20,299 - DEBUG - Function:     main()
+2025-08-01 15:28:20,299 - DEBUG - Line:         218
+2025-08-01 15:28:20,299 - DEBUG - User:         ryan
+
+2025-08-01 15:28:20,300 - DEBUG - EXCEPTION
+2025-08-01 15:28:20,300 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:28:20,300 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:28:20,300 - DEBUG - Message:      Test Exception Not Thrown
+2025-08-01 15:28:20,301 - DEBUG - File:         detail_logger.py
+2025-08-01 15:28:20,301 - DEBUG - Function:     main()
+2025-08-01 15:28:20,301 - DEBUG - Line:         219
+2025-08-01 15:28:20,301 - DEBUG - User:         ryan
+
+2025-08-01 15:28:20,301 - DEBUG - EXCEPTION
+2025-08-01 15:28:20,301 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:28:20,302 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:28:20,302 - DEBUG - Message:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:28:20,302 - DEBUG - File:         detail_logger.py
+2025-08-01 15:28:20,302 - DEBUG - Function:     main()
+2025-08-01 15:28:20,302 - DEBUG - Line:         220
+2025-08-01 15:28:20,302 - DEBUG - User:         ryan
+
+2025-08-01 15:28:20,303 - DEBUG - EXCEPTION
+2025-08-01 15:28:20,303 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:28:20,303 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:28:20,303 - DEBUG - Message:      division by zero
+2025-08-01 15:28:20,303 - DEBUG - File:         detail_logger.py
+2025-08-01 15:28:20,303 - DEBUG - Function:     main()
+2025-08-01 15:28:20,303 - DEBUG - Line:         225
+2025-08-01 15:28:20,303 - DEBUG - User:         ryan
+
+2025-08-01 15:28:20,303 - DEBUG - EXCEPTION
+2025-08-01 15:28:20,304 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:28:20,304 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:28:20,304 - DEBUG - Message:      invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:28:20,304 - DEBUG - File:         detail_logger.py
+2025-08-01 15:28:20,304 - DEBUG - Function:     main()
+2025-08-01 15:28:20,304 - DEBUG - Line:         230
+2025-08-01 15:28:20,304 - DEBUG - User:         ryan
+
+2025-08-01 15:28:20,304 - DEBUG - EXCEPTION
+2025-08-01 15:28:20,305 - DEBUG - Exception Type:       Not Sent
+2025-08-01 15:28:20,305 - DEBUG - Exception Message:    Not Sent
+2025-08-01 15:28:20,305 - DEBUG - Message:      list index out of range
+2025-08-01 15:28:20,305 - DEBUG - File:         detail_logger.py
+2025-08-01 15:28:20,305 - DEBUG - Function:     main()
+2025-08-01 15:28:20,305 - DEBUG - Line:         235
+2025-08-01 15:28:20,305 - DEBUG - User:         ryan
+
+2025-08-01 15:31:21,197 - DEBUG - MESSAGE
+2025-08-01 15:31:21,209 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:31:21,209 - DEBUG - File:         detail_logger.py
+2025-08-01 15:31:21,209 - DEBUG - Function:     main()
+2025-08-01 15:31:21,209 - DEBUG - Line:         218
+2025-08-01 15:31:21,209 - DEBUG - User:         ryan
+
+2025-08-01 15:31:21,209 - DEBUG - EXCEPTION
+2025-08-01 15:31:21,210 - DEBUG - Type:       Not Sent
+2025-08-01 15:31:21,210 - DEBUG - Message:    Not Sent
+2025-08-01 15:31:35,956 - DEBUG - MESSAGE
+2025-08-01 15:31:35,967 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:31:35,967 - DEBUG - File:         detail_logger.py
+2025-08-01 15:31:35,967 - DEBUG - Function:     main()
+2025-08-01 15:31:35,968 - DEBUG - Line:         218
+2025-08-01 15:31:35,968 - DEBUG - User:         ryan
+
+2025-08-01 15:31:35,968 - DEBUG - EXCEPTION
+2025-08-01 15:31:35,968 - DEBUG - Type:       Not Sent
+2025-08-01 15:31:35,968 - DEBUG - Message:    Not Sent
+2025-08-01 15:31:35,968 - DEBUG - Details:      Test Exception Not Thrown
+2025-08-01 15:31:35,969 - DEBUG - File:         detail_logger.py
+2025-08-01 15:31:35,969 - DEBUG - Function:     main()
+2025-08-01 15:31:35,969 - DEBUG - Line:         219
+2025-08-01 15:31:35,969 - DEBUG - User:         ryan
+
+2025-08-01 15:31:35,969 - DEBUG - EXCEPTION
+2025-08-01 15:31:35,970 - DEBUG - Type:       Not Sent
+2025-08-01 15:31:35,970 - DEBUG - Message:    Not Sent
+2025-08-01 15:31:35,970 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:31:35,970 - DEBUG - File:         detail_logger.py
+2025-08-01 15:31:35,970 - DEBUG - Function:     main()
+2025-08-01 15:31:35,971 - DEBUG - Line:         220
+2025-08-01 15:31:35,971 - DEBUG - User:         ryan
+
+2025-08-01 15:31:35,971 - DEBUG - EXCEPTION
+2025-08-01 15:31:35,971 - DEBUG - Type:       Not Sent
+2025-08-01 15:31:35,972 - DEBUG - Message:    Not Sent
+2025-08-01 15:31:35,972 - DEBUG - Details:      division by zero
+2025-08-01 15:31:35,972 - DEBUG - File:         detail_logger.py
+2025-08-01 15:31:35,972 - DEBUG - Function:     main()
+2025-08-01 15:31:35,972 - DEBUG - Line:         225
+2025-08-01 15:31:35,972 - DEBUG - User:         ryan
+
+2025-08-01 15:31:35,973 - DEBUG - EXCEPTION
+2025-08-01 15:31:35,973 - DEBUG - Type:       Not Sent
+2025-08-01 15:31:35,973 - DEBUG - Message:    Not Sent
+2025-08-01 15:31:35,973 - DEBUG - Details:      invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:31:35,973 - DEBUG - File:         detail_logger.py
+2025-08-01 15:31:35,974 - DEBUG - Function:     main()
+2025-08-01 15:31:35,974 - DEBUG - Line:         230
+2025-08-01 15:31:35,974 - DEBUG - User:         ryan
+
+2025-08-01 15:31:35,974 - DEBUG - EXCEPTION
+2025-08-01 15:31:35,974 - DEBUG - Type:       Not Sent
+2025-08-01 15:31:35,974 - DEBUG - Message:    Not Sent
+2025-08-01 15:31:35,975 - DEBUG - Details:      list index out of range
+2025-08-01 15:31:35,975 - DEBUG - File:         detail_logger.py
+2025-08-01 15:31:35,975 - DEBUG - Function:     main()
+2025-08-01 15:31:35,975 - DEBUG - Line:         235
+2025-08-01 15:31:35,975 - DEBUG - User:         ryan
+
+2025-08-01 15:32:58,370 - DEBUG - MESSAGE
+2025-08-01 15:32:58,381 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:32:58,381 - DEBUG - File:         detail_logger.py
+2025-08-01 15:32:58,381 - DEBUG - Function:     main()
+2025-08-01 15:32:58,381 - DEBUG - Line:         219
+2025-08-01 15:32:58,382 - DEBUG - User:         ryan
+
+2025-08-01 15:32:58,382 - DEBUG - EXCEPTION
+2025-08-01 15:32:58,382 - DEBUG - Type:         Not Sent
+2025-08-01 15:32:58,382 - DEBUG - Message:      Not Sent
+2025-08-01 15:32:58,383 - DEBUG - Details:      Test Exception Not Thrown
+2025-08-01 15:32:58,383 - DEBUG - File:         detail_logger.py
+2025-08-01 15:32:58,383 - DEBUG - Function:     main()
+2025-08-01 15:32:58,383 - DEBUG - Line:         220
+2025-08-01 15:32:58,383 - DEBUG - User:         ryan
+
+2025-08-01 15:32:58,383 - DEBUG - EXCEPTION
+2025-08-01 15:32:58,384 - DEBUG - Type:         Not Sent
+2025-08-01 15:32:58,384 - DEBUG - Message:      Not Sent
+2025-08-01 15:32:58,384 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:32:58,384 - DEBUG - File:         detail_logger.py
+2025-08-01 15:32:58,385 - DEBUG - Function:     main()
+2025-08-01 15:32:58,385 - DEBUG - Line:         221
+2025-08-01 15:32:58,385 - DEBUG - User:         ryan
+
+2025-08-01 15:32:58,385 - DEBUG - EXCEPTION
+2025-08-01 15:32:58,386 - DEBUG - Type:         Not Sent
+2025-08-01 15:32:58,386 - DEBUG - Message:      Not Sent
+2025-08-01 15:32:58,386 - DEBUG - Details:      division by zero
+2025-08-01 15:32:58,387 - DEBUG - File:         detail_logger.py
+2025-08-01 15:32:58,387 - DEBUG - Function:     main()
+2025-08-01 15:32:58,387 - DEBUG - Line:         226
+2025-08-01 15:32:58,387 - DEBUG - User:         ryan
+
+2025-08-01 15:32:58,387 - DEBUG - EXCEPTION
+2025-08-01 15:32:58,387 - DEBUG - Type:         Not Sent
+2025-08-01 15:32:58,388 - DEBUG - Message:      Not Sent
+2025-08-01 15:32:58,388 - DEBUG - Details:      invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:32:58,388 - DEBUG - File:         detail_logger.py
+2025-08-01 15:32:58,388 - DEBUG - Function:     main()
+2025-08-01 15:32:58,388 - DEBUG - Line:         231
+2025-08-01 15:32:58,389 - DEBUG - User:         ryan
+
+2025-08-01 15:32:58,389 - DEBUG - EXCEPTION
+2025-08-01 15:32:58,389 - DEBUG - Type:         Not Sent
+2025-08-01 15:32:58,389 - DEBUG - Message:      Not Sent
+2025-08-01 15:32:58,389 - DEBUG - Details:      list index out of range
+2025-08-01 15:32:58,390 - DEBUG - File:         detail_logger.py
+2025-08-01 15:32:58,390 - DEBUG - Function:     main()
+2025-08-01 15:32:58,390 - DEBUG - Line:         236
+2025-08-01 15:32:58,390 - DEBUG - User:         ryan
+
+2025-08-01 15:33:53,302 - DEBUG - MESSAGE
+2025-08-01 15:33:53,314 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:33:53,314 - DEBUG - File:         detail_logger.py
+2025-08-01 15:33:53,314 - DEBUG - Function:     main()
+2025-08-01 15:33:53,314 - DEBUG - Line:         218
+2025-08-01 15:33:53,314 - DEBUG - User:         ryan
+
+2025-08-01 15:33:53,314 - DEBUG - EXCEPTION
+2025-08-01 15:33:53,315 - DEBUG - Type:       Exception
+2025-08-01 15:33:53,315 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:33:53,315 - DEBUG - From:       <module>()
+2025-08-01 15:33:53,315 - DEBUG - File:       detail_logger.py
+2025-08-01 15:33:53,315 - DEBUG - Line:       238
+2025-08-01 15:33:53,316 - DEBUG - User:       ryan
+
+2025-08-01 15:33:53,316 - DEBUG - EXCEPTION
+2025-08-01 15:33:53,316 - DEBUG - Type:         Not Sent
+2025-08-01 15:33:53,316 - DEBUG - Message:      Not Sent
+2025-08-01 15:33:53,316 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:33:53,317 - DEBUG - File:         detail_logger.py
+2025-08-01 15:33:53,317 - DEBUG - Function:     main()
+2025-08-01 15:33:53,317 - DEBUG - Line:         220
+2025-08-01 15:33:53,317 - DEBUG - User:         ryan
+
+2025-08-01 15:33:53,317 - DEBUG - EXCEPTION
+2025-08-01 15:33:53,317 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:33:53,317 - DEBUG - Message:    division by zero
+2025-08-01 15:33:53,318 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:33:53,318 - DEBUG - From:	throw_div_zero()
+2025-08-01 15:33:53,318 - DEBUG - File:	detail_logger.py
+2025-08-01 15:33:53,318 - DEBUG - Line:	202
+2025-08-01 15:33:53,318 - DEBUG - Code:	x = 1/0
+2025-08-01 15:33:53,318 - DEBUG - ---------------------------------------------
+2025-08-01 15:33:53,318 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:33:53,318 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:33:53,318 - DEBUG - Traceback(1) Line:    223
+2025-08-01 15:33:53,319 - DEBUG - Traceback(1) Code:    throw_div_zero()
+2025-08-01 15:33:53,319 - DEBUG - ---------------------------------------------
+2025-08-01 15:33:53,319 - DEBUG - Traceback(2) From:    throw_div_zero()
+2025-08-01 15:33:53,319 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:33:53,319 - DEBUG - Traceback(2) Line:    202
+2025-08-01 15:33:53,319 - DEBUG - Traceback(2) Code:    x = 1/0
+2025-08-01 15:33:53,320 - DEBUG - User:       ryan
+
+2025-08-01 15:33:53,320 - DEBUG - EXCEPTION
+2025-08-01 15:33:53,320 - DEBUG - Type:       ValueError
+2025-08-01 15:33:53,320 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:33:53,320 - DEBUG - Details:    Value Error Test
+2025-08-01 15:33:53,321 - DEBUG - From:	throw_value_error()
+2025-08-01 15:33:53,321 - DEBUG - File:	detail_logger.py
+2025-08-01 15:33:53,321 - DEBUG - Line:	205
+2025-08-01 15:33:53,321 - DEBUG - Code:	int("Value Error")
+2025-08-01 15:33:53,321 - DEBUG - ---------------------------------------------
+2025-08-01 15:33:53,321 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:33:53,321 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:33:53,321 - DEBUG - Traceback(1) Line:    228
+2025-08-01 15:33:53,321 - DEBUG - Traceback(1) Code:    throw_value_error()
+2025-08-01 15:33:53,322 - DEBUG - ---------------------------------------------
+2025-08-01 15:33:53,322 - DEBUG - Traceback(2) From:    throw_value_error()
+2025-08-01 15:33:53,322 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:33:53,322 - DEBUG - Traceback(2) Line:    205
+2025-08-01 15:33:53,322 - DEBUG - Traceback(2) Code:    int("Value Error")
+2025-08-01 15:33:53,322 - DEBUG - User:       ryan
+
+2025-08-01 15:33:53,322 - DEBUG - EXCEPTION
+2025-08-01 15:33:53,322 - DEBUG - Type:       IndexError
+2025-08-01 15:33:53,322 - DEBUG - Message:    list index out of range
+2025-08-01 15:33:53,323 - DEBUG - Details:    Index Error Test
+2025-08-01 15:33:53,323 - DEBUG - From:	throw_index_error()
+2025-08-01 15:33:53,323 - DEBUG - File:	detail_logger.py
+2025-08-01 15:33:53,323 - DEBUG - Line:	209
+2025-08-01 15:33:53,323 - DEBUG - Code:	x = a_list[1]
+2025-08-01 15:33:53,323 - DEBUG - ---------------------------------------------
+2025-08-01 15:33:53,323 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:33:53,323 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:33:53,323 - DEBUG - Traceback(1) Line:    233
+2025-08-01 15:33:53,324 - DEBUG - Traceback(1) Code:    throw_index_error()
+2025-08-01 15:33:53,324 - DEBUG - ---------------------------------------------
+2025-08-01 15:33:53,324 - DEBUG - Traceback(2) From:    throw_index_error()
+2025-08-01 15:33:53,324 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:33:53,324 - DEBUG - Traceback(2) Line:    209
+2025-08-01 15:33:53,324 - DEBUG - Traceback(2) Code:    x = a_list[1]
+2025-08-01 15:33:53,325 - DEBUG - User:       ryan
+
+2025-08-01 15:35:55,804 - DEBUG - MESSAGE
+2025-08-01 15:35:55,815 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:35:55,815 - DEBUG - File:         detail_logger.py
+2025-08-01 15:35:55,816 - DEBUG - Function:     main()
+2025-08-01 15:35:55,816 - DEBUG - Line:         218
+2025-08-01 15:35:55,816 - DEBUG - User:         ryan
+
+2025-08-01 15:35:55,816 - DEBUG - EXCEPTION
+2025-08-01 15:35:55,816 - DEBUG - Type:       Exception
+2025-08-01 15:35:55,816 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:35:55,817 - DEBUG - From:    <module>()
+2025-08-01 15:35:55,817 - DEBUG - File:    detail_logger.py
+2025-08-01 15:35:55,817 - DEBUG - Line:    238
+2025-08-01 15:35:55,817 - DEBUG - User:       ryan
+
+2025-08-01 15:35:55,818 - DEBUG - EXCEPTION
+2025-08-01 15:35:55,818 - DEBUG - Type:         Not Sent
+2025-08-01 15:35:55,818 - DEBUG - Message:      Not Sent
+2025-08-01 15:35:55,818 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:35:55,819 - DEBUG - File:         detail_logger.py
+2025-08-01 15:35:55,819 - DEBUG - Function:     main()
+2025-08-01 15:35:55,819 - DEBUG - Line:         220
+2025-08-01 15:35:55,819 - DEBUG - User:         ryan
+
+2025-08-01 15:35:55,819 - DEBUG - EXCEPTION
+2025-08-01 15:35:55,819 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:35:55,820 - DEBUG - Message:    division by zero
+2025-08-01 15:35:55,820 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:35:55,820 - DEBUG - From:    throw_div_zero()
+2025-08-01 15:35:55,820 - DEBUG - File:    detail_logger.py
+2025-08-01 15:35:55,821 - DEBUG - Line:    202
+2025-08-01 15:35:55,821 - DEBUG - Code:    x = 1/0
+2025-08-01 15:35:55,821 - DEBUG - ---------------------------------------------
+2025-08-01 15:35:55,821 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:35:55,821 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:35:55,821 - DEBUG - Traceback(1) Line:    223
+2025-08-01 15:35:55,821 - DEBUG - Traceback(1) Code:    throw_div_zero()
+2025-08-01 15:35:55,821 - DEBUG - ---------------------------------------------
+2025-08-01 15:35:55,821 - DEBUG - Traceback(2) From:    throw_div_zero()
+2025-08-01 15:35:55,822 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:35:55,822 - DEBUG - Traceback(2) Line:    202
+2025-08-01 15:35:55,822 - DEBUG - Traceback(2) Code:    x = 1/0
+2025-08-01 15:35:55,822 - DEBUG - User:       ryan
+
+2025-08-01 15:35:55,822 - DEBUG - EXCEPTION
+2025-08-01 15:35:55,822 - DEBUG - Type:       ValueError
+2025-08-01 15:35:55,822 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:35:55,823 - DEBUG - Details:    Value Error Test
+2025-08-01 15:35:55,823 - DEBUG - From:    throw_value_error()
+2025-08-01 15:35:55,823 - DEBUG - File:    detail_logger.py
+2025-08-01 15:35:55,823 - DEBUG - Line:    205
+2025-08-01 15:35:55,823 - DEBUG - Code:    int("Value Error")
+2025-08-01 15:35:55,823 - DEBUG - ---------------------------------------------
+2025-08-01 15:35:55,823 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:35:55,824 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:35:55,824 - DEBUG - Traceback(1) Line:    228
+2025-08-01 15:35:55,824 - DEBUG - Traceback(1) Code:    throw_value_error()
+2025-08-01 15:35:55,824 - DEBUG - ---------------------------------------------
+2025-08-01 15:35:55,824 - DEBUG - Traceback(2) From:    throw_value_error()
+2025-08-01 15:35:55,824 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:35:55,824 - DEBUG - Traceback(2) Line:    205
+2025-08-01 15:35:55,824 - DEBUG - Traceback(2) Code:    int("Value Error")
+2025-08-01 15:35:55,825 - DEBUG - User:       ryan
+
+2025-08-01 15:35:55,825 - DEBUG - EXCEPTION
+2025-08-01 15:35:55,825 - DEBUG - Type:       IndexError
+2025-08-01 15:35:55,825 - DEBUG - Message:    list index out of range
+2025-08-01 15:35:55,825 - DEBUG - Details:    Index Error Test
+2025-08-01 15:35:55,825 - DEBUG - From:    throw_index_error()
+2025-08-01 15:35:55,825 - DEBUG - File:    detail_logger.py
+2025-08-01 15:35:55,825 - DEBUG - Line:    209
+2025-08-01 15:35:55,826 - DEBUG - Code:    x = a_list[1]
+2025-08-01 15:35:55,826 - DEBUG - ---------------------------------------------
+2025-08-01 15:35:55,826 - DEBUG - Traceback(1) From:    main()
+2025-08-01 15:35:55,826 - DEBUG - Traceback(1) File:    detail_logger.py
+2025-08-01 15:35:55,826 - DEBUG - Traceback(1) Line:    233
+2025-08-01 15:35:55,826 - DEBUG - Traceback(1) Code:    throw_index_error()
+2025-08-01 15:35:55,826 - DEBUG - ---------------------------------------------
+2025-08-01 15:35:55,826 - DEBUG - Traceback(2) From:    throw_index_error()
+2025-08-01 15:35:55,826 - DEBUG - Traceback(2) File:    detail_logger.py
+2025-08-01 15:35:55,827 - DEBUG - Traceback(2) Line:    209
+2025-08-01 15:35:55,827 - DEBUG - Traceback(2) Code:    x = a_list[1]
+2025-08-01 15:35:55,827 - DEBUG - User:       ryan
+
+2025-08-01 15:36:25,179 - DEBUG - MESSAGE
+2025-08-01 15:36:25,191 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:36:25,191 - DEBUG - File:         detail_logger.py
+2025-08-01 15:36:25,191 - DEBUG - Function:     main()
+2025-08-01 15:36:25,191 - DEBUG - Line:         218
+2025-08-01 15:36:25,191 - DEBUG - User:         ryan
+
+2025-08-01 15:36:25,192 - DEBUG - EXCEPTION
+2025-08-01 15:36:25,192 - DEBUG - Type:       Exception
+2025-08-01 15:36:25,192 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:36:25,192 - DEBUG - From:       <module>()
+2025-08-01 15:36:25,192 - DEBUG - File:       detail_logger.py
+2025-08-01 15:36:25,192 - DEBUG - Line:       238
+2025-08-01 15:36:25,193 - DEBUG - User:       ryan
+
+2025-08-01 15:36:25,193 - DEBUG - EXCEPTION
+2025-08-01 15:36:25,193 - DEBUG - Type:         Not Sent
+2025-08-01 15:36:25,193 - DEBUG - Message:      Not Sent
+2025-08-01 15:36:25,194 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:36:25,194 - DEBUG - File:         detail_logger.py
+2025-08-01 15:36:25,194 - DEBUG - Function:     main()
+2025-08-01 15:36:25,194 - DEBUG - Line:         220
+2025-08-01 15:36:25,195 - DEBUG - User:         ryan
+
+2025-08-01 15:36:25,195 - DEBUG - EXCEPTION
+2025-08-01 15:36:25,195 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:36:25,195 - DEBUG - Message:    division by zero
+2025-08-01 15:36:25,196 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:36:25,196 - DEBUG - From:    throw_div_zero()
+2025-08-01 15:36:25,196 - DEBUG - File:    detail_logger.py
+2025-08-01 15:36:25,196 - DEBUG - Line:    202
+2025-08-01 15:36:25,196 - DEBUG - Code:    x = 1/0
+2025-08-01 15:36:25,197 - DEBUG - ---------------------------------------------
+2025-08-01 15:36:25,197 - DEBUG - Traceback(1) From:       main()
+2025-08-01 15:36:25,197 - DEBUG - Traceback(1) File:       detail_logger.py
+2025-08-01 15:36:25,197 - DEBUG - Traceback(1) Line:       223
+2025-08-01 15:36:25,197 - DEBUG - Traceback(1) Code:       throw_div_zero()
+2025-08-01 15:36:25,197 - DEBUG - ---------------------------------------------
+2025-08-01 15:36:25,198 - DEBUG - Traceback(2) From:       throw_div_zero()
+2025-08-01 15:36:25,198 - DEBUG - Traceback(2) File:       detail_logger.py
+2025-08-01 15:36:25,198 - DEBUG - Traceback(2) Line:       202
+2025-08-01 15:36:25,198 - DEBUG - Traceback(2) Code:       x = 1/0
+2025-08-01 15:36:25,198 - DEBUG - User:       ryan
+
+2025-08-01 15:36:25,198 - DEBUG - EXCEPTION
+2025-08-01 15:36:25,198 - DEBUG - Type:       ValueError
+2025-08-01 15:36:25,198 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:36:25,199 - DEBUG - Details:    Value Error Test
+2025-08-01 15:36:25,199 - DEBUG - From:    throw_value_error()
+2025-08-01 15:36:25,199 - DEBUG - File:    detail_logger.py
+2025-08-01 15:36:25,199 - DEBUG - Line:    205
+2025-08-01 15:36:25,199 - DEBUG - Code:    int("Value Error")
+2025-08-01 15:36:25,199 - DEBUG - ---------------------------------------------
+2025-08-01 15:36:25,199 - DEBUG - Traceback(1) From:       main()
+2025-08-01 15:36:25,199 - DEBUG - Traceback(1) File:       detail_logger.py
+2025-08-01 15:36:25,199 - DEBUG - Traceback(1) Line:       228
+2025-08-01 15:36:25,200 - DEBUG - Traceback(1) Code:       throw_value_error()
+2025-08-01 15:36:25,200 - DEBUG - ---------------------------------------------
+2025-08-01 15:36:25,200 - DEBUG - Traceback(2) From:       throw_value_error()
+2025-08-01 15:36:25,200 - DEBUG - Traceback(2) File:       detail_logger.py
+2025-08-01 15:36:25,200 - DEBUG - Traceback(2) Line:       205
+2025-08-01 15:36:25,200 - DEBUG - Traceback(2) Code:       int("Value Error")
+2025-08-01 15:36:25,200 - DEBUG - User:       ryan
+
+2025-08-01 15:36:25,200 - DEBUG - EXCEPTION
+2025-08-01 15:36:25,200 - DEBUG - Type:       IndexError
+2025-08-01 15:36:25,201 - DEBUG - Message:    list index out of range
+2025-08-01 15:36:25,201 - DEBUG - Details:    Index Error Test
+2025-08-01 15:36:25,201 - DEBUG - From:    throw_index_error()
+2025-08-01 15:36:25,201 - DEBUG - File:    detail_logger.py
+2025-08-01 15:36:25,201 - DEBUG - Line:    209
+2025-08-01 15:36:25,201 - DEBUG - Code:    x = a_list[1]
+2025-08-01 15:36:25,201 - DEBUG - ---------------------------------------------
+2025-08-01 15:36:25,202 - DEBUG - Traceback(1) From:       main()
+2025-08-01 15:36:25,202 - DEBUG - Traceback(1) File:       detail_logger.py
+2025-08-01 15:36:25,202 - DEBUG - Traceback(1) Line:       233
+2025-08-01 15:36:25,202 - DEBUG - Traceback(1) Code:       throw_index_error()
+2025-08-01 15:36:25,202 - DEBUG - ---------------------------------------------
+2025-08-01 15:36:25,202 - DEBUG - Traceback(2) From:       throw_index_error()
+2025-08-01 15:36:25,202 - DEBUG - Traceback(2) File:       detail_logger.py
+2025-08-01 15:36:25,202 - DEBUG - Traceback(2) Line:       209
+2025-08-01 15:36:25,203 - DEBUG - Traceback(2) Code:       x = a_list[1]
+2025-08-01 15:36:25,203 - DEBUG - User:       ryan
+
+2025-08-01 15:37:36,838 - DEBUG - MESSAGE
+2025-08-01 15:37:36,848 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:37:36,848 - DEBUG - File:         detail_logger.py
+2025-08-01 15:37:36,848 - DEBUG - Function:     main()
+2025-08-01 15:37:36,849 - DEBUG - Line:         219
+2025-08-01 15:37:36,849 - DEBUG - User:         ryan
+
+2025-08-01 15:37:36,849 - DEBUG - EXCEPTION
+2025-08-01 15:37:36,849 - DEBUG - Type:       Exception
+2025-08-01 15:37:36,849 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:37:36,849 - DEBUG - From:       <module>()
+2025-08-01 15:37:36,850 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,850 - DEBUG - Line:       239
+2025-08-01 15:37:36,850 - DEBUG - User:       ryan
+
+2025-08-01 15:37:36,850 - DEBUG - EXCEPTION
+2025-08-01 15:37:36,850 - DEBUG - Type:         Not Sent
+2025-08-01 15:37:36,851 - DEBUG - Message:      Not Sent
+2025-08-01 15:37:36,851 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:37:36,851 - DEBUG - File:         detail_logger.py
+2025-08-01 15:37:36,851 - DEBUG - Function:     main()
+2025-08-01 15:37:36,852 - DEBUG - Line:         221
+2025-08-01 15:37:36,852 - DEBUG - User:         ryan
+
+2025-08-01 15:37:36,852 - DEBUG - EXCEPTION
+2025-08-01 15:37:36,852 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:37:36,853 - DEBUG - Message:    division by zero
+2025-08-01 15:37:36,853 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:37:36,853 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:37:36,853 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,853 - DEBUG - Line:       203
+2025-08-01 15:37:36,853 - DEBUG - Code:       x = 1/0
+2025-08-01 15:37:36,854 - DEBUG - ---------------------------------------------
+2025-08-01 15:37:36,854 - DEBUG - Traceback(1)
+2025-08-01 15:37:36,854 - DEBUG - From:       main()
+2025-08-01 15:37:36,854 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,854 - DEBUG - Line:       224
+2025-08-01 15:37:36,854 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:37:36,855 - DEBUG - ---------------------------------------------
+2025-08-01 15:37:36,855 - DEBUG - Traceback(2)
+2025-08-01 15:37:36,855 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:37:36,855 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,855 - DEBUG - Line:       203
+2025-08-01 15:37:36,855 - DEBUG - Code:       x = 1/0
+2025-08-01 15:37:36,856 - DEBUG - User:       ryan
+
+2025-08-01 15:37:36,856 - DEBUG - EXCEPTION
+2025-08-01 15:37:36,856 - DEBUG - Type:       ValueError
+2025-08-01 15:37:36,856 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:37:36,856 - DEBUG - Details:    Value Error Test
+2025-08-01 15:37:36,857 - DEBUG - From:       throw_value_error()
+2025-08-01 15:37:36,857 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,857 - DEBUG - Line:       206
+2025-08-01 15:37:36,857 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:37:36,857 - DEBUG - ---------------------------------------------
+2025-08-01 15:37:36,857 - DEBUG - Traceback(1)
+2025-08-01 15:37:36,857 - DEBUG - From:       main()
+2025-08-01 15:37:36,858 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,858 - DEBUG - Line:       229
+2025-08-01 15:37:36,858 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:37:36,858 - DEBUG - ---------------------------------------------
+2025-08-01 15:37:36,858 - DEBUG - Traceback(2)
+2025-08-01 15:37:36,858 - DEBUG - From:       throw_value_error()
+2025-08-01 15:37:36,858 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,858 - DEBUG - Line:       206
+2025-08-01 15:37:36,859 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:37:36,859 - DEBUG - User:       ryan
+
+2025-08-01 15:37:36,859 - DEBUG - EXCEPTION
+2025-08-01 15:37:36,859 - DEBUG - Type:       IndexError
+2025-08-01 15:37:36,859 - DEBUG - Message:    list index out of range
+2025-08-01 15:37:36,860 - DEBUG - Details:    Index Error Test
+2025-08-01 15:37:36,860 - DEBUG - From:       throw_index_error()
+2025-08-01 15:37:36,860 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,860 - DEBUG - Line:       210
+2025-08-01 15:37:36,860 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:37:36,860 - DEBUG - ---------------------------------------------
+2025-08-01 15:37:36,861 - DEBUG - Traceback(1)
+2025-08-01 15:37:36,861 - DEBUG - From:       main()
+2025-08-01 15:37:36,861 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,861 - DEBUG - Line:       234
+2025-08-01 15:37:36,861 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:37:36,861 - DEBUG - ---------------------------------------------
+2025-08-01 15:37:36,861 - DEBUG - Traceback(2)
+2025-08-01 15:37:36,861 - DEBUG - From:       throw_index_error()
+2025-08-01 15:37:36,862 - DEBUG - File:       detail_logger.py
+2025-08-01 15:37:36,862 - DEBUG - Line:       210
+2025-08-01 15:37:36,862 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:37:36,862 - DEBUG - User:       ryan
+
+2025-08-01 15:38:01,651 - DEBUG - MESSAGE
+2025-08-01 15:38:01,663 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:38:01,663 - DEBUG - File:         detail_logger.py
+2025-08-01 15:38:01,663 - DEBUG - Function:     main()
+2025-08-01 15:38:01,663 - DEBUG - Line:         220
+2025-08-01 15:38:01,663 - DEBUG - User:         ryan
+
+2025-08-01 15:38:01,664 - DEBUG - EXCEPTION
+2025-08-01 15:38:01,664 - DEBUG - Type:       Exception
+2025-08-01 15:38:01,664 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:38:01,664 - DEBUG - From:       <module>()
+2025-08-01 15:38:01,664 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,664 - DEBUG - Line:       240
+2025-08-01 15:38:01,665 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,665 - DEBUG - User:       ryan
+
+2025-08-01 15:38:01,665 - DEBUG - EXCEPTION
+2025-08-01 15:38:01,665 - DEBUG - Type:         Not Sent
+2025-08-01 15:38:01,666 - DEBUG - Message:      Not Sent
+2025-08-01 15:38:01,666 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:38:01,666 - DEBUG - File:         detail_logger.py
+2025-08-01 15:38:01,666 - DEBUG - Function:     main()
+2025-08-01 15:38:01,667 - DEBUG - Line:         222
+2025-08-01 15:38:01,667 - DEBUG - User:         ryan
+
+2025-08-01 15:38:01,667 - DEBUG - EXCEPTION
+2025-08-01 15:38:01,667 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:38:01,667 - DEBUG - Message:    division by zero
+2025-08-01 15:38:01,667 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:38:01,668 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:38:01,668 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,668 - DEBUG - Line:       204
+2025-08-01 15:38:01,668 - DEBUG - Code:       x = 1/0
+2025-08-01 15:38:01,668 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,668 - DEBUG - Traceback(1)
+2025-08-01 15:38:01,668 - DEBUG - From:       main()
+2025-08-01 15:38:01,668 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,668 - DEBUG - Line:       225
+2025-08-01 15:38:01,669 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:38:01,669 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,669 - DEBUG - Traceback(2)
+2025-08-01 15:38:01,669 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:38:01,669 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,669 - DEBUG - Line:       204
+2025-08-01 15:38:01,669 - DEBUG - Code:       x = 1/0
+2025-08-01 15:38:01,669 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,670 - DEBUG - User:       ryan
+
+2025-08-01 15:38:01,670 - DEBUG - EXCEPTION
+2025-08-01 15:38:01,670 - DEBUG - Type:       ValueError
+2025-08-01 15:38:01,670 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:38:01,670 - DEBUG - Details:    Value Error Test
+2025-08-01 15:38:01,670 - DEBUG - From:       throw_value_error()
+2025-08-01 15:38:01,670 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,670 - DEBUG - Line:       207
+2025-08-01 15:38:01,671 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:38:01,671 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,671 - DEBUG - Traceback(1)
+2025-08-01 15:38:01,671 - DEBUG - From:       main()
+2025-08-01 15:38:01,671 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,671 - DEBUG - Line:       230
+2025-08-01 15:38:01,671 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:38:01,672 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,672 - DEBUG - Traceback(2)
+2025-08-01 15:38:01,672 - DEBUG - From:       throw_value_error()
+2025-08-01 15:38:01,672 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,672 - DEBUG - Line:       207
+2025-08-01 15:38:01,672 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:38:01,672 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,673 - DEBUG - User:       ryan
+
+2025-08-01 15:38:01,673 - DEBUG - EXCEPTION
+2025-08-01 15:38:01,673 - DEBUG - Type:       IndexError
+2025-08-01 15:38:01,673 - DEBUG - Message:    list index out of range
+2025-08-01 15:38:01,673 - DEBUG - Details:    Index Error Test
+2025-08-01 15:38:01,674 - DEBUG - From:       throw_index_error()
+2025-08-01 15:38:01,674 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,674 - DEBUG - Line:       211
+2025-08-01 15:38:01,674 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:38:01,674 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,675 - DEBUG - Traceback(1)
+2025-08-01 15:38:01,675 - DEBUG - From:       main()
+2025-08-01 15:38:01,675 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,675 - DEBUG - Line:       235
+2025-08-01 15:38:01,675 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:38:01,676 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,676 - DEBUG - Traceback(2)
+2025-08-01 15:38:01,676 - DEBUG - From:       throw_index_error()
+2025-08-01 15:38:01,676 - DEBUG - File:       detail_logger.py
+2025-08-01 15:38:01,676 - DEBUG - Line:       211
+2025-08-01 15:38:01,677 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:38:01,677 - DEBUG - ---------------------------------------------
+2025-08-01 15:38:01,677 - DEBUG - User:       ryan
+
+2025-08-01 15:39:25,527 - DEBUG - MESSAGE
+2025-08-01 15:39:25,537 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:39:25,537 - DEBUG - File:         detail_logger.py
+2025-08-01 15:39:25,538 - DEBUG - Function:     main()
+2025-08-01 15:39:25,538 - DEBUG - Line:         220
+2025-08-01 15:39:25,538 - DEBUG - User:         ryan
+
+2025-08-01 15:39:25,538 - DEBUG - EXCEPTION
+2025-08-01 15:39:25,538 - DEBUG - Type:       Exception
+2025-08-01 15:39:25,538 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:39:25,539 - DEBUG - From:       <module>()
+2025-08-01 15:39:25,539 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,539 - DEBUG - Line:       240
+2025-08-01 15:39:25,539 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,540 - DEBUG - User:       ryan
+
+2025-08-01 15:39:25,540 - DEBUG - EXCEPTION
+2025-08-01 15:39:25,540 - DEBUG - Type:         Not Sent
+2025-08-01 15:39:25,540 - DEBUG - Message:      Not Sent
+2025-08-01 15:39:25,540 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:39:25,541 - DEBUG - File:         detail_logger.py
+2025-08-01 15:39:25,541 - DEBUG - Function:     main()
+2025-08-01 15:39:25,541 - DEBUG - Line:         222
+2025-08-01 15:39:25,541 - DEBUG - User:         ryan
+
+2025-08-01 15:39:25,541 - DEBUG - EXCEPTION
+2025-08-01 15:39:25,541 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:39:25,541 - DEBUG - Message:    division by zero
+2025-08-01 15:39:25,542 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:39:25,542 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:39:25,542 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,542 - DEBUG - Line:       204
+2025-08-01 15:39:25,542 - DEBUG - Code:       x = 1/0
+2025-08-01 15:39:25,542 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,542 - DEBUG - Traceback(1)
+2025-08-01 15:39:25,543 - DEBUG - From:       main()
+2025-08-01 15:39:25,543 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,543 - DEBUG - Line:       225
+2025-08-01 15:39:25,543 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:39:25,543 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,543 - DEBUG - Traceback(2)
+2025-08-01 15:39:25,543 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:39:25,543 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,543 - DEBUG - Line:       204
+2025-08-01 15:39:25,544 - DEBUG - Code:       x = 1/0
+2025-08-01 15:39:25,544 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,544 - DEBUG - User:       ryan
+
+2025-08-01 15:39:25,544 - DEBUG - EXCEPTION
+2025-08-01 15:39:25,544 - DEBUG - Type:       ValueError
+2025-08-01 15:39:25,544 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:39:25,544 - DEBUG - Details:    Value Error Test
+2025-08-01 15:39:25,545 - DEBUG - From:       throw_value_error()
+2025-08-01 15:39:25,545 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,545 - DEBUG - Line:       207
+2025-08-01 15:39:25,545 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:39:25,545 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,545 - DEBUG - Traceback(1)
+2025-08-01 15:39:25,545 - DEBUG - From:       main()
+2025-08-01 15:39:25,546 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,546 - DEBUG - Line:       230
+2025-08-01 15:39:25,546 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:39:25,546 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,546 - DEBUG - Traceback(2)
+2025-08-01 15:39:25,546 - DEBUG - From:       throw_value_error()
+2025-08-01 15:39:25,547 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,547 - DEBUG - Line:       207
+2025-08-01 15:39:25,547 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:39:25,547 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,547 - DEBUG - User:       ryan
+
+2025-08-01 15:39:25,547 - DEBUG - EXCEPTION
+2025-08-01 15:39:25,548 - DEBUG - Type:       IndexError
+2025-08-01 15:39:25,548 - DEBUG - Message:    list index out of range
+2025-08-01 15:39:25,548 - DEBUG - Details:    Index Error Test
+2025-08-01 15:39:25,548 - DEBUG - From:       throw_index_error()
+2025-08-01 15:39:25,548 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,548 - DEBUG - Line:       211
+2025-08-01 15:39:25,548 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:39:25,548 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,549 - DEBUG - Traceback(1)
+2025-08-01 15:39:25,549 - DEBUG - From:       main()
+2025-08-01 15:39:25,549 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,549 - DEBUG - Line:       235
+2025-08-01 15:39:25,549 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:39:25,549 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,550 - DEBUG - Traceback(2)
+2025-08-01 15:39:25,550 - DEBUG - From:       throw_index_error()
+2025-08-01 15:39:25,550 - DEBUG - File:       detail_logger.py
+2025-08-01 15:39:25,550 - DEBUG - Line:       211
+2025-08-01 15:39:25,550 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:39:25,550 - DEBUG - ---------------------------------------------
+2025-08-01 15:39:25,551 - DEBUG - User:       ryan
+
+2025-08-01 15:41:17,952 - DEBUG - MESSAGE
+2025-08-01 15:41:17,963 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:41:17,963 - DEBUG - File:         detail_logger.py
+2025-08-01 15:41:17,964 - DEBUG - Function:     main()
+2025-08-01 15:41:17,964 - DEBUG - Line:         220
+2025-08-01 15:41:17,964 - DEBUG - User:         ryan
+
+2025-08-01 15:41:17,964 - DEBUG - EXCEPTION
+2025-08-01 15:41:17,964 - DEBUG - Type:       Exception
+2025-08-01 15:41:17,964 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:41:17,965 - DEBUG - From:         <module>()
+2025-08-01 15:41:17,965 - DEBUG - File:         detail_logger.py
+2025-08-01 15:41:17,965 - DEBUG - Line:         240
+2025-08-01 15:41:17,965 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,966 - DEBUG - User:         ryan
+
+2025-08-01 15:41:17,966 - DEBUG - EXCEPTION
+2025-08-01 15:41:17,966 - DEBUG - Type:         Not Sent
+2025-08-01 15:41:17,966 - DEBUG - Message:      Not Sent
+2025-08-01 15:41:17,967 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:41:17,967 - DEBUG - File:         detail_logger.py
+2025-08-01 15:41:17,967 - DEBUG - Function:     main()
+2025-08-01 15:41:17,967 - DEBUG - Line:         222
+2025-08-01 15:41:17,968 - DEBUG - User:         ryan
+
+2025-08-01 15:41:17,968 - DEBUG - EXCEPTION
+2025-08-01 15:41:17,968 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:41:17,968 - DEBUG - Message:    division by zero
+2025-08-01 15:41:17,969 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:41:17,969 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:41:17,969 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,969 - DEBUG - Line:       204
+2025-08-01 15:41:17,970 - DEBUG - Code:       x = 1/0
+2025-08-01 15:41:17,970 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,970 - DEBUG - Traceback(1)
+2025-08-01 15:41:17,970 - DEBUG - From:       main()
+2025-08-01 15:41:17,970 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,971 - DEBUG - Line:       225
+2025-08-01 15:41:17,971 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:41:17,971 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,971 - DEBUG - Traceback(2)
+2025-08-01 15:41:17,971 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:41:17,971 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,971 - DEBUG - Line:       204
+2025-08-01 15:41:17,971 - DEBUG - Code:       x = 1/0
+2025-08-01 15:41:17,972 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,972 - DEBUG - User:         ryan
+
+2025-08-01 15:41:17,972 - DEBUG - EXCEPTION
+2025-08-01 15:41:17,972 - DEBUG - Type:       ValueError
+2025-08-01 15:41:17,972 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:41:17,973 - DEBUG - Details:    Value Error Test
+2025-08-01 15:41:17,973 - DEBUG - From:       throw_value_error()
+2025-08-01 15:41:17,973 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,973 - DEBUG - Line:       207
+2025-08-01 15:41:17,973 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:41:17,974 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,974 - DEBUG - Traceback(1)
+2025-08-01 15:41:17,974 - DEBUG - From:       main()
+2025-08-01 15:41:17,974 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,974 - DEBUG - Line:       230
+2025-08-01 15:41:17,974 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:41:17,975 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,975 - DEBUG - Traceback(2)
+2025-08-01 15:41:17,975 - DEBUG - From:       throw_value_error()
+2025-08-01 15:41:17,975 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,975 - DEBUG - Line:       207
+2025-08-01 15:41:17,975 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:41:17,976 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,976 - DEBUG - User:         ryan
+
+2025-08-01 15:41:17,976 - DEBUG - EXCEPTION
+2025-08-01 15:41:17,976 - DEBUG - Type:       IndexError
+2025-08-01 15:41:17,976 - DEBUG - Message:    list index out of range
+2025-08-01 15:41:17,976 - DEBUG - Details:    Index Error Test
+2025-08-01 15:41:17,977 - DEBUG - From:       throw_index_error()
+2025-08-01 15:41:17,977 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,977 - DEBUG - Line:       211
+2025-08-01 15:41:17,977 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:41:17,978 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,978 - DEBUG - Traceback(1)
+2025-08-01 15:41:17,978 - DEBUG - From:       main()
+2025-08-01 15:41:17,978 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,978 - DEBUG - Line:       235
+2025-08-01 15:41:17,978 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:41:17,979 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,979 - DEBUG - Traceback(2)
+2025-08-01 15:41:17,979 - DEBUG - From:       throw_index_error()
+2025-08-01 15:41:17,979 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:17,979 - DEBUG - Line:       211
+2025-08-01 15:41:17,979 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:41:17,979 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:17,980 - DEBUG - User:         ryan
+
+2025-08-01 15:41:49,141 - DEBUG - MESSAGE
+2025-08-01 15:41:49,152 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:41:49,152 - DEBUG - File:         detail_logger.py
+2025-08-01 15:41:49,152 - DEBUG - Function:     main()
+2025-08-01 15:41:49,152 - DEBUG - Line:         220
+2025-08-01 15:41:49,152 - DEBUG - User:         ryan
+
+2025-08-01 15:41:49,153 - DEBUG - EXCEPTION
+2025-08-01 15:41:49,153 - DEBUG - Type:       Exception
+2025-08-01 15:41:49,153 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:41:49,153 - DEBUG - From:         <module>()
+2025-08-01 15:41:49,153 - DEBUG - File:         detail_logger.py
+2025-08-01 15:41:49,153 - DEBUG - Line:         240
+2025-08-01 15:41:49,154 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,154 - DEBUG - User:       ryan
+
+2025-08-01 15:41:49,154 - DEBUG - EXCEPTION
+2025-08-01 15:41:49,154 - DEBUG - Type:         Not Sent
+2025-08-01 15:41:49,155 - DEBUG - Message:      Not Sent
+2025-08-01 15:41:49,155 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:41:49,155 - DEBUG - File:         detail_logger.py
+2025-08-01 15:41:49,155 - DEBUG - Function:     main()
+2025-08-01 15:41:49,156 - DEBUG - Line:         222
+2025-08-01 15:41:49,156 - DEBUG - User:         ryan
+
+2025-08-01 15:41:49,156 - DEBUG - EXCEPTION
+2025-08-01 15:41:49,157 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:41:49,157 - DEBUG - Message:    division by zero
+2025-08-01 15:41:49,157 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:41:49,157 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:41:49,157 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,157 - DEBUG - Line:       204
+2025-08-01 15:41:49,158 - DEBUG - Code:       x = 1/0
+2025-08-01 15:41:49,158 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,158 - DEBUG - Traceback(1)
+2025-08-01 15:41:49,158 - DEBUG - From:       main()
+2025-08-01 15:41:49,158 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,158 - DEBUG - Line:       225
+2025-08-01 15:41:49,158 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:41:49,159 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,159 - DEBUG - Traceback(2)
+2025-08-01 15:41:49,159 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:41:49,159 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,159 - DEBUG - Line:       204
+2025-08-01 15:41:49,160 - DEBUG - Code:       x = 1/0
+2025-08-01 15:41:49,160 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,160 - DEBUG - User:       ryan
+
+2025-08-01 15:41:49,160 - DEBUG - EXCEPTION
+2025-08-01 15:41:49,160 - DEBUG - Type:       ValueError
+2025-08-01 15:41:49,160 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:41:49,161 - DEBUG - Details:    Value Error Test
+2025-08-01 15:41:49,161 - DEBUG - From:       throw_value_error()
+2025-08-01 15:41:49,161 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,161 - DEBUG - Line:       207
+2025-08-01 15:41:49,161 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:41:49,161 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,162 - DEBUG - Traceback(1)
+2025-08-01 15:41:49,162 - DEBUG - From:       main()
+2025-08-01 15:41:49,162 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,162 - DEBUG - Line:       230
+2025-08-01 15:41:49,162 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:41:49,162 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,162 - DEBUG - Traceback(2)
+2025-08-01 15:41:49,162 - DEBUG - From:       throw_value_error()
+2025-08-01 15:41:49,163 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,163 - DEBUG - Line:       207
+2025-08-01 15:41:49,163 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:41:49,163 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,163 - DEBUG - User:       ryan
+
+2025-08-01 15:41:49,163 - DEBUG - EXCEPTION
+2025-08-01 15:41:49,163 - DEBUG - Type:       IndexError
+2025-08-01 15:41:49,163 - DEBUG - Message:    list index out of range
+2025-08-01 15:41:49,164 - DEBUG - Details:    Index Error Test
+2025-08-01 15:41:49,164 - DEBUG - From:       throw_index_error()
+2025-08-01 15:41:49,164 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,164 - DEBUG - Line:       211
+2025-08-01 15:41:49,164 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:41:49,164 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,164 - DEBUG - Traceback(1)
+2025-08-01 15:41:49,165 - DEBUG - From:       main()
+2025-08-01 15:41:49,165 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,165 - DEBUG - Line:       235
+2025-08-01 15:41:49,165 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:41:49,165 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,166 - DEBUG - Traceback(2)
+2025-08-01 15:41:49,166 - DEBUG - From:       throw_index_error()
+2025-08-01 15:41:49,166 - DEBUG - File:       detail_logger.py
+2025-08-01 15:41:49,166 - DEBUG - Line:       211
+2025-08-01 15:41:49,166 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:41:49,166 - DEBUG - ---------------------------------------------
+2025-08-01 15:41:49,167 - DEBUG - User:       ryan
+
+2025-08-01 15:42:25,626 - DEBUG - MESSAGE
+2025-08-01 15:42:25,637 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:42:25,638 - DEBUG - File:         detail_logger.py
+2025-08-01 15:42:25,638 - DEBUG - Function:     main()
+2025-08-01 15:42:25,638 - DEBUG - Line:         220
+2025-08-01 15:42:25,638 - DEBUG - User:         ryan
+
+2025-08-01 15:42:25,638 - DEBUG - EXCEPTION
+2025-08-01 15:42:25,638 - DEBUG - Type:       Exception
+2025-08-01 15:42:25,639 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:42:25,639 - DEBUG - From:         <module>()
+2025-08-01 15:42:25,639 - DEBUG - File:         detail_logger.py
+2025-08-01 15:42:25,639 - DEBUG - Line:         240
+2025-08-01 15:42:25,639 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,640 - DEBUG - User:       ryan
+
+2025-08-01 15:42:25,640 - DEBUG - EXCEPTION
+2025-08-01 15:42:25,640 - DEBUG - Type:         Not Sent
+2025-08-01 15:42:25,640 - DEBUG - Message:      Not Sent
+2025-08-01 15:42:25,640 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:42:25,641 - DEBUG - File:         detail_logger.py
+2025-08-01 15:42:25,641 - DEBUG - Function:     main()
+2025-08-01 15:42:25,641 - DEBUG - Line:         222
+2025-08-01 15:42:25,641 - DEBUG - User:         ryan
+
+2025-08-01 15:42:25,641 - DEBUG - EXCEPTION
+2025-08-01 15:42:25,641 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:42:25,642 - DEBUG - Message:    division by zero
+2025-08-01 15:42:25,642 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:42:25,642 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:42:25,642 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,642 - DEBUG - Line:       204
+2025-08-01 15:42:25,642 - DEBUG - Code:       x = 1/0
+2025-08-01 15:42:25,642 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,642 - DEBUG - Traceback(1)
+2025-08-01 15:42:25,643 - DEBUG - From:       main()
+2025-08-01 15:42:25,643 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,643 - DEBUG - Line:       225
+2025-08-01 15:42:25,643 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:42:25,643 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,643 - DEBUG - Traceback(2)
+2025-08-01 15:42:25,643 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:42:25,643 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,643 - DEBUG - Line:       204
+2025-08-01 15:42:25,644 - DEBUG - Code:       x = 1/0
+2025-08-01 15:42:25,644 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,644 - DEBUG - User:       ryan
+
+2025-08-01 15:42:25,644 - DEBUG - EXCEPTION
+2025-08-01 15:42:25,644 - DEBUG - Type:       ValueError
+2025-08-01 15:42:25,644 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:42:25,644 - DEBUG - Details:    Value Error Test
+2025-08-01 15:42:25,645 - DEBUG - From:       throw_value_error()
+2025-08-01 15:42:25,645 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,645 - DEBUG - Line:       207
+2025-08-01 15:42:25,645 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:42:25,645 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,645 - DEBUG - Traceback(1)
+2025-08-01 15:42:25,646 - DEBUG - From:       main()
+2025-08-01 15:42:25,646 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,646 - DEBUG - Line:       230
+2025-08-01 15:42:25,646 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:42:25,646 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,646 - DEBUG - Traceback(2)
+2025-08-01 15:42:25,647 - DEBUG - From:       throw_value_error()
+2025-08-01 15:42:25,647 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,647 - DEBUG - Line:       207
+2025-08-01 15:42:25,647 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:42:25,647 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,647 - DEBUG - User:       ryan
+
+2025-08-01 15:42:25,647 - DEBUG - EXCEPTION
+2025-08-01 15:42:25,648 - DEBUG - Type:       IndexError
+2025-08-01 15:42:25,648 - DEBUG - Message:    list index out of range
+2025-08-01 15:42:25,648 - DEBUG - Details:    Index Error Test
+2025-08-01 15:42:25,648 - DEBUG - From:       throw_index_error()
+2025-08-01 15:42:25,648 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,648 - DEBUG - Line:       211
+2025-08-01 15:42:25,648 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:42:25,649 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,649 - DEBUG - Traceback(1)
+2025-08-01 15:42:25,649 - DEBUG - From:       main()
+2025-08-01 15:42:25,649 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,649 - DEBUG - Line:       235
+2025-08-01 15:42:25,649 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:42:25,649 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,649 - DEBUG - Traceback(2)
+2025-08-01 15:42:25,649 - DEBUG - From:       throw_index_error()
+2025-08-01 15:42:25,650 - DEBUG - File:       detail_logger.py
+2025-08-01 15:42:25,650 - DEBUG - Line:       211
+2025-08-01 15:42:25,650 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:42:25,650 - DEBUG - ---------------------------------------------
+2025-08-01 15:42:25,650 - DEBUG - User:       ryan
+
+2025-08-01 15:45:02,899 - DEBUG - MESSAGE
+2025-08-01 15:45:02,910 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:45:12,511 - DEBUG - MESSAGE
+2025-08-01 15:45:12,522 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:45:12,522 - DEBUG - File:    detail_logger.py
+2025-08-01 15:45:12,523 - DEBUG - Function:     main()
+2025-08-01 15:45:12,523 - DEBUG - Line:         223
+2025-08-01 15:45:12,523 - DEBUG - User:         ryan
+
+2025-08-01 15:45:12,523 - DEBUG - EXCEPTION
+2025-08-01 15:45:12,523 - DEBUG - Type:       Exception
+2025-08-01 15:45:12,523 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:45:12,523 - DEBUG - From:         <module>()
+2025-08-01 15:45:12,524 - DEBUG - File:         detail_logger.py
+2025-08-01 15:45:12,524 - DEBUG - Line:         243
+2025-08-01 15:45:12,524 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,524 - DEBUG - User:       ryan
+
+2025-08-01 15:45:12,524 - DEBUG - EXCEPTION
+2025-08-01 15:45:12,524 - DEBUG - Type:         Not Sent
+2025-08-01 15:45:12,524 - DEBUG - Message:      Not Sent
+2025-08-01 15:45:12,525 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:45:12,525 - DEBUG - File:    detail_logger.py
+2025-08-01 15:45:12,525 - DEBUG - Function:     main()
+2025-08-01 15:45:12,525 - DEBUG - Line:         225
+2025-08-01 15:45:12,525 - DEBUG - User:         ryan
+
+2025-08-01 15:45:12,525 - DEBUG - EXCEPTION
+2025-08-01 15:45:12,525 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:45:12,525 - DEBUG - Message:    division by zero
+2025-08-01 15:45:12,525 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:45:12,526 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:45:12,526 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,526 - DEBUG - Line:       207
+2025-08-01 15:45:12,526 - DEBUG - Code:       x = 1/0
+2025-08-01 15:45:12,526 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,526 - DEBUG - Traceback(1)
+2025-08-01 15:45:12,526 - DEBUG - From:       main()
+2025-08-01 15:45:12,526 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,527 - DEBUG - Line:       228
+2025-08-01 15:45:12,527 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:45:12,527 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,527 - DEBUG - Traceback(2)
+2025-08-01 15:45:12,527 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:45:12,527 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,527 - DEBUG - Line:       207
+2025-08-01 15:45:12,528 - DEBUG - Code:       x = 1/0
+2025-08-01 15:45:12,528 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,528 - DEBUG - User:       ryan
+
+2025-08-01 15:45:12,528 - DEBUG - EXCEPTION
+2025-08-01 15:45:12,528 - DEBUG - Type:       ValueError
+2025-08-01 15:45:12,528 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:45:12,528 - DEBUG - Details:    Value Error Test
+2025-08-01 15:45:12,529 - DEBUG - From:       throw_value_error()
+2025-08-01 15:45:12,529 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,529 - DEBUG - Line:       210
+2025-08-01 15:45:12,529 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:45:12,529 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,529 - DEBUG - Traceback(1)
+2025-08-01 15:45:12,529 - DEBUG - From:       main()
+2025-08-01 15:45:12,529 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,529 - DEBUG - Line:       233
+2025-08-01 15:45:12,530 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:45:12,530 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,530 - DEBUG - Traceback(2)
+2025-08-01 15:45:12,530 - DEBUG - From:       throw_value_error()
+2025-08-01 15:45:12,530 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,530 - DEBUG - Line:       210
+2025-08-01 15:45:12,530 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:45:12,530 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,530 - DEBUG - User:       ryan
+
+2025-08-01 15:45:12,531 - DEBUG - EXCEPTION
+2025-08-01 15:45:12,531 - DEBUG - Type:       IndexError
+2025-08-01 15:45:12,531 - DEBUG - Message:    list index out of range
+2025-08-01 15:45:12,531 - DEBUG - Details:    Index Error Test
+2025-08-01 15:45:12,531 - DEBUG - From:       throw_index_error()
+2025-08-01 15:45:12,531 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,531 - DEBUG - Line:       214
+2025-08-01 15:45:12,531 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:45:12,531 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,531 - DEBUG - Traceback(1)
+2025-08-01 15:45:12,532 - DEBUG - From:       main()
+2025-08-01 15:45:12,532 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,532 - DEBUG - Line:       238
+2025-08-01 15:45:12,532 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:45:12,532 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,532 - DEBUG - Traceback(2)
+2025-08-01 15:45:12,532 - DEBUG - From:       throw_index_error()
+2025-08-01 15:45:12,533 - DEBUG - File:       detail_logger.py
+2025-08-01 15:45:12,533 - DEBUG - Line:       214
+2025-08-01 15:45:12,533 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:45:12,533 - DEBUG - ---------------------------------------------
+2025-08-01 15:45:12,533 - DEBUG - User:       ryan
+
+2025-08-01 15:46:33,857 - DEBUG - MESSAGE
+2025-08-01 15:46:33,868 - DEBUG - Details:      Test of DetailLogger
+2025-08-01 15:46:33,868 - DEBUG - File:           detail_logger.py
+2025-08-01 15:46:33,868 - DEBUG - Function:     main()
+2025-08-01 15:46:33,869 - DEBUG - Line:         223
+2025-08-01 15:46:33,869 - DEBUG - User:         ryan
+
+2025-08-01 15:46:33,869 - DEBUG - EXCEPTION
+2025-08-01 15:46:33,869 - DEBUG - Type:       Exception
+2025-08-01 15:46:33,869 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:46:33,870 - DEBUG - From:         <module>()
+2025-08-01 15:46:33,870 - DEBUG - File:         detail_logger.py
+2025-08-01 15:46:33,870 - DEBUG - Line:         243
+2025-08-01 15:46:33,870 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,871 - DEBUG - User:       ryan
+
+2025-08-01 15:46:33,871 - DEBUG - EXCEPTION
+2025-08-01 15:46:33,871 - DEBUG - Type:         Not Sent
+2025-08-01 15:46:33,871 - DEBUG - Message:      Not Sent
+2025-08-01 15:46:33,872 - DEBUG - Details:      this is a common syntax error of sending a message and no exception
+2025-08-01 15:46:33,872 - DEBUG - File:           detail_logger.py
+2025-08-01 15:46:33,872 - DEBUG - Function:     main()
+2025-08-01 15:46:33,872 - DEBUG - Line:         225
+2025-08-01 15:46:33,872 - DEBUG - User:         ryan
+
+2025-08-01 15:46:33,872 - DEBUG - EXCEPTION
+2025-08-01 15:46:33,872 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:46:33,872 - DEBUG - Message:    division by zero
+2025-08-01 15:46:33,872 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:46:33,873 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:46:33,873 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,873 - DEBUG - Line:       207
+2025-08-01 15:46:33,873 - DEBUG - Code:       x = 1/0
+2025-08-01 15:46:33,873 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,873 - DEBUG - Traceback(1)
+2025-08-01 15:46:33,873 - DEBUG - From:       main()
+2025-08-01 15:46:33,873 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,874 - DEBUG - Line:       228
+2025-08-01 15:46:33,874 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:46:33,874 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,874 - DEBUG - Traceback(2)
+2025-08-01 15:46:33,874 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:46:33,874 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,874 - DEBUG - Line:       207
+2025-08-01 15:46:33,875 - DEBUG - Code:       x = 1/0
+2025-08-01 15:46:33,875 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,875 - DEBUG - User:       ryan
+
+2025-08-01 15:46:33,875 - DEBUG - EXCEPTION
+2025-08-01 15:46:33,875 - DEBUG - Type:       ValueError
+2025-08-01 15:46:33,875 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:46:33,876 - DEBUG - Details:    Value Error Test
+2025-08-01 15:46:33,876 - DEBUG - From:       throw_value_error()
+2025-08-01 15:46:33,876 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,876 - DEBUG - Line:       210
+2025-08-01 15:46:33,876 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:46:33,877 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,877 - DEBUG - Traceback(1)
+2025-08-01 15:46:33,877 - DEBUG - From:       main()
+2025-08-01 15:46:33,877 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,877 - DEBUG - Line:       233
+2025-08-01 15:46:33,877 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:46:33,877 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,877 - DEBUG - Traceback(2)
+2025-08-01 15:46:33,877 - DEBUG - From:       throw_value_error()
+2025-08-01 15:46:33,877 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,878 - DEBUG - Line:       210
+2025-08-01 15:46:33,878 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:46:33,878 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,878 - DEBUG - User:       ryan
+
+2025-08-01 15:46:33,878 - DEBUG - EXCEPTION
+2025-08-01 15:46:33,878 - DEBUG - Type:       IndexError
+2025-08-01 15:46:33,878 - DEBUG - Message:    list index out of range
+2025-08-01 15:46:33,878 - DEBUG - Details:    Index Error Test
+2025-08-01 15:46:33,878 - DEBUG - From:       throw_index_error()
+2025-08-01 15:46:33,879 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,879 - DEBUG - Line:       214
+2025-08-01 15:46:33,879 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:46:33,879 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,879 - DEBUG - Traceback(1)
+2025-08-01 15:46:33,879 - DEBUG - From:       main()
+2025-08-01 15:46:33,879 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,879 - DEBUG - Line:       238
+2025-08-01 15:46:33,879 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:46:33,880 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,880 - DEBUG - Traceback(2)
+2025-08-01 15:46:33,880 - DEBUG - From:       throw_index_error()
+2025-08-01 15:46:33,880 - DEBUG - File:       detail_logger.py
+2025-08-01 15:46:33,880 - DEBUG - Line:       214
+2025-08-01 15:46:33,880 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:46:33,880 - DEBUG - ---------------------------------------------
+2025-08-01 15:46:33,881 - DEBUG - User:       ryan
+
+2025-08-01 15:47:42,694 - DEBUG - MESSAGE
+2025-08-01 15:47:42,704 - DEBUG - Details:        Test of DetailLogger
+2025-08-01 15:47:42,705 - DEBUG - File:           detail_logger.py
+2025-08-01 15:47:42,705 - DEBUG - Function:       main()
+2025-08-01 15:47:42,705 - DEBUG - Line:           223
+2025-08-01 15:47:42,705 - DEBUG - User:           ryan
+
+2025-08-01 15:47:42,705 - DEBUG - EXCEPTION
+2025-08-01 15:47:42,706 - DEBUG - Type:       Exception
+2025-08-01 15:47:42,706 - DEBUG - Message:    Test Exception Not Thrown
+2025-08-01 15:47:42,706 - DEBUG - From:         <module>()
+2025-08-01 15:47:42,706 - DEBUG - File:         detail_logger.py
+2025-08-01 15:47:42,706 - DEBUG - Line:         243
+2025-08-01 15:47:42,707 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,707 - DEBUG - User:       ryan
+
+2025-08-01 15:47:42,707 - DEBUG - EXCEPTION
+2025-08-01 15:47:42,707 - DEBUG - Type:         Not Sent
+2025-08-01 15:47:42,707 - DEBUG - Message:      Not Sent
+2025-08-01 15:47:42,708 - DEBUG - Details:        this is a common syntax error of sending a message and no exception
+2025-08-01 15:47:42,708 - DEBUG - File:           detail_logger.py
+2025-08-01 15:47:42,708 - DEBUG - Function:       main()
+2025-08-01 15:47:42,708 - DEBUG - Line:           225
+2025-08-01 15:47:42,708 - DEBUG - User:           ryan
+
+2025-08-01 15:47:42,708 - DEBUG - EXCEPTION
+2025-08-01 15:47:42,709 - DEBUG - Type:       ZeroDivisionError
+2025-08-01 15:47:42,709 - DEBUG - Message:    division by zero
+2025-08-01 15:47:42,709 - DEBUG - Details:    Div by Zero Test
+2025-08-01 15:47:42,709 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:47:42,709 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,709 - DEBUG - Line:       207
+2025-08-01 15:47:42,709 - DEBUG - Code:       x = 1/0
+2025-08-01 15:47:42,709 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,710 - DEBUG - Traceback(1)
+2025-08-01 15:47:42,710 - DEBUG - From:       main()
+2025-08-01 15:47:42,710 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,710 - DEBUG - Line:       228
+2025-08-01 15:47:42,710 - DEBUG - Code:       throw_div_zero()
+2025-08-01 15:47:42,710 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,710 - DEBUG - Traceback(2)
+2025-08-01 15:47:42,710 - DEBUG - From:       throw_div_zero()
+2025-08-01 15:47:42,710 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,711 - DEBUG - Line:       207
+2025-08-01 15:47:42,711 - DEBUG - Code:       x = 1/0
+2025-08-01 15:47:42,711 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,711 - DEBUG - User:       ryan
+
+2025-08-01 15:47:42,711 - DEBUG - EXCEPTION
+2025-08-01 15:47:42,711 - DEBUG - Type:       ValueError
+2025-08-01 15:47:42,711 - DEBUG - Message:    invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:47:42,712 - DEBUG - Details:    Value Error Test
+2025-08-01 15:47:42,712 - DEBUG - From:       throw_value_error()
+2025-08-01 15:47:42,712 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,712 - DEBUG - Line:       210
+2025-08-01 15:47:42,712 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:47:42,712 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,712 - DEBUG - Traceback(1)
+2025-08-01 15:47:42,712 - DEBUG - From:       main()
+2025-08-01 15:47:42,713 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,713 - DEBUG - Line:       233
+2025-08-01 15:47:42,713 - DEBUG - Code:       throw_value_error()
+2025-08-01 15:47:42,713 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,713 - DEBUG - Traceback(2)
+2025-08-01 15:47:42,713 - DEBUG - From:       throw_value_error()
+2025-08-01 15:47:42,714 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,714 - DEBUG - Line:       210
+2025-08-01 15:47:42,714 - DEBUG - Code:       int("Value Error")
+2025-08-01 15:47:42,714 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,714 - DEBUG - User:       ryan
+
+2025-08-01 15:47:42,714 - DEBUG - EXCEPTION
+2025-08-01 15:47:42,714 - DEBUG - Type:       IndexError
+2025-08-01 15:47:42,714 - DEBUG - Message:    list index out of range
+2025-08-01 15:47:42,715 - DEBUG - Details:    Index Error Test
+2025-08-01 15:47:42,715 - DEBUG - From:       throw_index_error()
+2025-08-01 15:47:42,715 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,715 - DEBUG - Line:       214
+2025-08-01 15:47:42,715 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:47:42,715 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,715 - DEBUG - Traceback(1)
+2025-08-01 15:47:42,715 - DEBUG - From:       main()
+2025-08-01 15:47:42,716 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,716 - DEBUG - Line:       238
+2025-08-01 15:47:42,716 - DEBUG - Code:       throw_index_error()
+2025-08-01 15:47:42,716 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,716 - DEBUG - Traceback(2)
+2025-08-01 15:47:42,716 - DEBUG - From:       throw_index_error()
+2025-08-01 15:47:42,716 - DEBUG - File:       detail_logger.py
+2025-08-01 15:47:42,717 - DEBUG - Line:       214
+2025-08-01 15:47:42,717 - DEBUG - Code:       x = a_list[1]
+2025-08-01 15:47:42,717 - DEBUG - ---------------------------------------------
+2025-08-01 15:47:42,717 - DEBUG - User:       ryan
+
+2025-08-01 15:50:36,944 - DEBUG - MESSAGE
+2025-08-01 15:50:36,955 - DEBUG - Details:        Test of DetailLogger
+2025-08-01 15:50:36,956 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,956 - DEBUG - Function:       main()
+2025-08-01 15:50:36,956 - DEBUG - Line:           223
+2025-08-01 15:50:36,956 - DEBUG - User:           ryan
+
+2025-08-01 15:50:36,956 - DEBUG - EXCEPTION
+2025-08-01 15:50:36,956 - DEBUG - Type:           Exception
+2025-08-01 15:50:36,957 - DEBUG - Message:        Test Exception Not Thrown
+2025-08-01 15:50:36,957 - DEBUG - From:           <module>()
+2025-08-01 15:50:36,957 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,957 - DEBUG - Line:           243
+2025-08-01 15:50:36,957 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,958 - DEBUG - User:           ryan
+
+2025-08-01 15:50:36,958 - DEBUG - EXCEPTION
+2025-08-01 15:50:36,958 - DEBUG - Type:           Not Sent
+2025-08-01 15:50:36,958 - DEBUG - Message:        Not Sent
+2025-08-01 15:50:36,959 - DEBUG - Details:        this is a common syntax error of sending a message and no exception
+2025-08-01 15:50:36,959 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,959 - DEBUG - Function:       main()
+2025-08-01 15:50:36,959 - DEBUG - Line:           225
+2025-08-01 15:50:36,959 - DEBUG - User:           ryan
+
+2025-08-01 15:50:36,960 - DEBUG - EXCEPTION
+2025-08-01 15:50:36,960 - DEBUG - Type:           ZeroDivisionError
+2025-08-01 15:50:36,960 - DEBUG - Message:        division by zero
+2025-08-01 15:50:36,960 - DEBUG - Details:        Div by Zero Test
+2025-08-01 15:50:36,961 - DEBUG - From:           throw_div_zero()
+2025-08-01 15:50:36,961 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,961 - DEBUG - Line:           207
+2025-08-01 15:50:36,961 - DEBUG - Code:           x = 1/0
+2025-08-01 15:50:36,962 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,962 - DEBUG - Traceback(1)
+2025-08-01 15:50:36,962 - DEBUG - From:           main()
+2025-08-01 15:50:36,962 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,962 - DEBUG - Line:           228
+2025-08-01 15:50:36,962 - DEBUG - Code:           throw_div_zero()
+2025-08-01 15:50:36,963 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,963 - DEBUG - Traceback(2)
+2025-08-01 15:50:36,963 - DEBUG - From:           throw_div_zero()
+2025-08-01 15:50:36,963 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,963 - DEBUG - Line:           207
+2025-08-01 15:50:36,963 - DEBUG - Code:           x = 1/0
+2025-08-01 15:50:36,963 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,964 - DEBUG - User:           ryan
+
+2025-08-01 15:50:36,964 - DEBUG - EXCEPTION
+2025-08-01 15:50:36,964 - DEBUG - Type:           ValueError
+2025-08-01 15:50:36,964 - DEBUG - Message:        invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:50:36,964 - DEBUG - Details:        Value Error Test
+2025-08-01 15:50:36,965 - DEBUG - From:           throw_value_error()
+2025-08-01 15:50:36,965 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,965 - DEBUG - Line:           210
+2025-08-01 15:50:36,965 - DEBUG - Code:           int("Value Error")
+2025-08-01 15:50:36,965 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,965 - DEBUG - Traceback(1)
+2025-08-01 15:50:36,966 - DEBUG - From:           main()
+2025-08-01 15:50:36,966 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,966 - DEBUG - Line:           233
+2025-08-01 15:50:36,966 - DEBUG - Code:           throw_value_error()
+2025-08-01 15:50:36,966 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,966 - DEBUG - Traceback(2)
+2025-08-01 15:50:36,966 - DEBUG - From:           throw_value_error()
+2025-08-01 15:50:36,966 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,966 - DEBUG - Line:           210
+2025-08-01 15:50:36,966 - DEBUG - Code:           int("Value Error")
+2025-08-01 15:50:36,967 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,967 - DEBUG - User:           ryan
+
+2025-08-01 15:50:36,967 - DEBUG - EXCEPTION
+2025-08-01 15:50:36,967 - DEBUG - Type:           IndexError
+2025-08-01 15:50:36,967 - DEBUG - Message:        list index out of range
+2025-08-01 15:50:36,967 - DEBUG - Details:        Index Error Test
+2025-08-01 15:50:36,967 - DEBUG - From:           throw_index_error()
+2025-08-01 15:50:36,967 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,968 - DEBUG - Line:           214
+2025-08-01 15:50:36,968 - DEBUG - Code:           x = a_list[1]
+2025-08-01 15:50:36,968 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,968 - DEBUG - Traceback(1)
+2025-08-01 15:50:36,968 - DEBUG - From:           main()
+2025-08-01 15:50:36,968 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,968 - DEBUG - Line:           238
+2025-08-01 15:50:36,968 - DEBUG - Code:           throw_index_error()
+2025-08-01 15:50:36,969 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,969 - DEBUG - Traceback(2)
+2025-08-01 15:50:36,969 - DEBUG - From:           throw_index_error()
+2025-08-01 15:50:36,969 - DEBUG - File:           detail_logger.py
+2025-08-01 15:50:36,969 - DEBUG - Line:           214
+2025-08-01 15:50:36,969 - DEBUG - Code:           x = a_list[1]
+2025-08-01 15:50:36,969 - DEBUG - ---------------------------------------------
+2025-08-01 15:50:36,970 - DEBUG - User:           ryan
+
+2025-08-01 15:52:16,028 - DEBUG - MESSAGE
+2025-08-01 15:52:16,038 - DEBUG - Details:        Test of DetailLogger
+2025-08-01 15:52:16,038 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,038 - DEBUG - Function:       main()
+2025-08-01 15:52:16,039 - DEBUG - Line:           223
+2025-08-01 15:52:16,039 - DEBUG - User:           ryan
+
+2025-08-01 15:52:16,039 - DEBUG - EXCEPTION
+2025-08-01 15:52:16,039 - DEBUG - Type:           Exception
+2025-08-01 15:52:16,039 - DEBUG - Message:        Test Exception Not Thrown
+2025-08-01 15:52:16,040 - DEBUG - From:           <module>()
+2025-08-01 15:52:16,040 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,040 - DEBUG - Line:           243
+2025-08-01 15:52:16,040 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,040 - DEBUG - User:           ryan
+
+2025-08-01 15:52:16,041 - DEBUG - EXCEPTION
+2025-08-01 15:52:16,041 - DEBUG - Type:           Not Sent
+2025-08-01 15:52:16,041 - DEBUG - Message:        Not Sent
+2025-08-01 15:52:16,041 - DEBUG - Details:        this is a common syntax error of sending a message and no exception
+2025-08-01 15:52:16,042 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,042 - DEBUG - Function:       main()
+2025-08-01 15:52:16,042 - DEBUG - Line:           225
+2025-08-01 15:52:16,042 - DEBUG - User:           ryan
+
+2025-08-01 15:52:16,042 - DEBUG - EXCEPTION
+2025-08-01 15:52:16,042 - DEBUG - Type:           ZeroDivisionError
+2025-08-01 15:52:16,043 - DEBUG - Message:        division by zero
+2025-08-01 15:52:16,043 - DEBUG - Details:        Additional Info about Div by Zero Test
+2025-08-01 15:52:16,043 - DEBUG - From:           throw_div_zero()
+2025-08-01 15:52:16,043 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,044 - DEBUG - Line:           207
+2025-08-01 15:52:16,044 - DEBUG - Code:           x = 1/0
+2025-08-01 15:52:16,044 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,044 - DEBUG - Traceback(1)
+2025-08-01 15:52:16,044 - DEBUG - From:           main()
+2025-08-01 15:52:16,044 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,045 - DEBUG - Line:           228
+2025-08-01 15:52:16,045 - DEBUG - Code:           throw_div_zero()
+2025-08-01 15:52:16,045 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,045 - DEBUG - Traceback(2)
+2025-08-01 15:52:16,045 - DEBUG - From:           throw_div_zero()
+2025-08-01 15:52:16,045 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,046 - DEBUG - Line:           207
+2025-08-01 15:52:16,046 - DEBUG - Code:           x = 1/0
+2025-08-01 15:52:16,046 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,046 - DEBUG - User:           ryan
+
+2025-08-01 15:52:16,047 - DEBUG - EXCEPTION
+2025-08-01 15:52:16,047 - DEBUG - Type:           ValueError
+2025-08-01 15:52:16,047 - DEBUG - Message:        invalid literal for int() with base 10: 'Value Error'
+2025-08-01 15:52:16,047 - DEBUG - Details:        Additional Info about Value Error Test
+2025-08-01 15:52:16,048 - DEBUG - From:           throw_value_error()
+2025-08-01 15:52:16,048 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,048 - DEBUG - Line:           210
+2025-08-01 15:52:16,048 - DEBUG - Code:           int("Value Error")
+2025-08-01 15:52:16,048 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,048 - DEBUG - Traceback(1)
+2025-08-01 15:52:16,048 - DEBUG - From:           main()
+2025-08-01 15:52:16,048 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,049 - DEBUG - Line:           233
+2025-08-01 15:52:16,049 - DEBUG - Code:           throw_value_error()
+2025-08-01 15:52:16,049 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,049 - DEBUG - Traceback(2)
+2025-08-01 15:52:16,049 - DEBUG - From:           throw_value_error()
+2025-08-01 15:52:16,049 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,049 - DEBUG - Line:           210
+2025-08-01 15:52:16,049 - DEBUG - Code:           int("Value Error")
+2025-08-01 15:52:16,049 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,050 - DEBUG - User:           ryan
+
+2025-08-01 15:52:16,050 - DEBUG - EXCEPTION
+2025-08-01 15:52:16,050 - DEBUG - Type:           IndexError
+2025-08-01 15:52:16,050 - DEBUG - Message:        list index out of range
+2025-08-01 15:52:16,050 - DEBUG - Details:        Additional Info about Index Error Test
+2025-08-01 15:52:16,051 - DEBUG - From:           throw_index_error()
+2025-08-01 15:52:16,051 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,051 - DEBUG - Line:           214
+2025-08-01 15:52:16,051 - DEBUG - Code:           x = a_list[1]
+2025-08-01 15:52:16,051 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,051 - DEBUG - Traceback(1)
+2025-08-01 15:52:16,051 - DEBUG - From:           main()
+2025-08-01 15:52:16,052 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,052 - DEBUG - Line:           238
+2025-08-01 15:52:16,052 - DEBUG - Code:           throw_index_error()
+2025-08-01 15:52:16,052 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,052 - DEBUG - Traceback(2)
+2025-08-01 15:52:16,052 - DEBUG - From:           throw_index_error()
+2025-08-01 15:52:16,052 - DEBUG - File:           detail_logger.py
+2025-08-01 15:52:16,052 - DEBUG - Line:           214
+2025-08-01 15:52:16,053 - DEBUG - Code:           x = a_list[1]
+2025-08-01 15:52:16,053 - DEBUG - ---------------------------------------------
+2025-08-01 15:52:16,053 - DEBUG - User:           ryan
+

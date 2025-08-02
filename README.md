@@ -4,7 +4,7 @@
 
 ---
 
-## 🎨 DetailLogger V 0.1.4
+## 🎨 DetailLogger V 0.1.6
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## ✨ Overview
 
-DetailLogger is a lightweight Python utility for enhanced logging and exception tracing. It automatically captures contextual information—such as file name, function, and line number—whenever messages or exceptions are logged. Ideal for debugging, monitoring, and building maintainable systems.
+DetailLogger is a lightweight Python utility for enhanced logging and exception data tracing. It automatically captures contextual information—such as file name, function, and line number—whenever messages or exceptions are logged. The clear and complete exception information is very useful for debugging, monitoring, and building maintainable systems.
 
 ---
 
@@ -30,9 +30,8 @@ DetailLogger is a lightweight Python utility for enhanced logging and exception 
 ## ⚙️ Features
 
 - ✅ Logs messages with caller context  
-- ✅ Captures exceptions with full traceback  
+- ✅ Captures exceptions with full traceback and information  
 - ✅ Supports console and file-based logging  
-- ✅ Uses wrapper functions for quick integration  
 - ✅ Built entirely on standard libraries
 
 ---
@@ -49,7 +48,7 @@ DetailLogger is a lightweight Python utility for enhanced logging and exception 
 
 # Run the built-in CLI demo for testing:
 
-`python detaillogger.py`
+`python core.py`
 
 # Embedded Example
 
@@ -100,13 +99,6 @@ except Exception as e:
 
 ![detail.log](https://raw.githubusercontent.com/rlapine/detaillogger/main/assets/image.png)
 
----
-
-## 🔧 Built-in demo:
-
-`python detaillogger.py`
-
-```
 Also log to file? (y/n):y
 Enter filname:detail.log
 
@@ -132,8 +124,10 @@ Message logged.
 
 ```
 detaillogger/
-├── detaillogger.py         # Core module
-├── test_detaillogger.py    # Unit test suite
+├── detaillogger/
+│   ├──core.py
+│   ├──detaillogger.py         # Core logic
+│   ├──__init__.py
 ├── assets/                 # Folder for images, badges, or other static assets
 │   ├── detaillogger_logo_2.png     # Logo for documentation
 │   └── image.png                   # File output 

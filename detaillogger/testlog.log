@@ -1,0 +1,10 @@
+2025-08-02 10:08:14,590 - DEBUG - EXCEPTION
+2025-08-02 10:08:14,591 - DEBUG - Type:           Exception
+2025-08-02 10:08:14,591 - DEBUG - Message:        yo
+2025-08-02 10:08:14,592 - DEBUG - From:           main()
+2025-08-02 10:08:14,592 - DEBUG - File:           core.py
+2025-08-02 10:08:14,592 - DEBUG - Line:           68
+2025-08-02 10:08:14,592 - DEBUG - Code:           raise Exception(ex_name)
+2025-08-02 10:08:14,593 - DEBUG - ---------------------------------------------
+2025-08-02 10:08:14,602 - DEBUG - User:           ryan
+
