@@ -4,7 +4,7 @@
 
 ---
 
-## 🎨 DetailLogger V 0.1.9
+## 🎨 DetailLogger V 0.2.0
 
 ---
 
@@ -132,7 +132,9 @@ detaillogger/
 │   ├── detaillogger_logo_2.png     # Logo for documentation
 │   └── image.png                   # File output 
 ├── README.md             # Documentation
-├── detaillogger.log      # Optional output log file
+├── pyproject.toml      
+├── setup.cfg
+└── setup.py
 ```
 
 ---
